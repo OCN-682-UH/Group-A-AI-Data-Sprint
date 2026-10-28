@@ -1,0 +1,215 @@
+---
+title: "OPIHI Data Sprint"
+author: "Fabiola Gonzalez Zamora"
+format: html
+---
+
+## Personal File for Wrangling
+
+```{r Load Libraries}
+#| warning = FALSE
+
+library(tidyverse)
+library(janitor)
+library(here)
+library(stringi)
+```
+
+1.  `2024_datasheet.csv`: 99 cols, 918 rows but **294 are empty filler**
+2.  `2024_datasheet_copy.csv`: 93 cols, 430 rows
+3.  90 columns shared, main has 8 extras, and the copy has 2 extras that are truncated variants of names
+
+- `Haminoea cymbalum` vs `Haminoe cymbalum - green snail`, `Snail - Dendropoma` vs `Snail - Dendropoma gregarium`
+
+4.  Site spellings in the 2024 files alone: `Ewa`, `'Ewa`, `Leahi`, `Le'ahi`, `Lē'ahi`, `Mamala`, `Mamala Bay`, `Kalaeloa`
+
+- Nine spellings for 4 sites
+
+```{r Join 2024 Datasheet}
+
+data_dir <- here("Data_Clean")
+
+# ---------------------------------------------------------------------------
+# Collapses ONLY cosmetic spelling differences - ʻokina, smart quotes,
+# backtick, macrons, case, spacing. Used for matching and deduplication.
+# Never write its output to the master sheet: the correct Hawaiian spelling
+# comes from site_lookup.csv.
+# ---------------------------------------------------------------------------
+match_key <- function(x) {
+  x |>
+    str_replace_all("[\u02BB\u2018\u2019`']", "") |>
+    stri_trans_general("Latin-ASCII") |>
+    str_to_lower() |>
+    str_squish()
+}
+
+# ---------------------------------------------------------------------------
+# STEP 1 - read. Header row is detected, not assumed, because the title row
+# above it isn't consistent between the two files.
+# ---------------------------------------------------------------------------
+read_2024 <- function(path) {
+  probe  <- read_csv(path, col_names = FALSE, n_max = 4, show_col_types = FALSE,
+                     col_types = cols(.default = col_character()))
+  skip_n <- which(apply(probe, 1, \(r) any(trimws(r) == "Date", na.rm = TRUE)))[1] - 1
+
+  read_csv(path, skip = skip_n, show_col_types = FALSE,
+           col_types = cols(.default = col_character())) |>
+    clean_names() |>
+    mutate(source_file = basename(path))
+}
+
+main_2024 <- read_2024(file.path(data_dir, "2024_datasheet_anonymized_output.csv"))
+copy_2024 <- read_2024(file.path(data_dir, "2024_datasheet_copy_anonymized_output.csv"))
+
+nrow(main_2024)   # 918
+nrow(copy_2024)   # 430
+
+# ---------------------------------------------------------------------------
+# STEP 2 - harmonise column names. The copy abbreviates two species that main
+# spells out; without this, bind_rows() makes four columns for two organisms.
+# Both files also carry a nameless trailing column (x96 / x91).
+# ---------------------------------------------------------------------------
+tidy_2024 <- function(df) {
+  df |>
+    select(-matches("^x\\d+$")) |>
+    rename(
+      haminoea_cymbalum_green_snail = any_of("haminoea_cymbalum"),
+      snail_dendropoma_gregarium    = any_of("snail_dendropoma")
+    )
+}
+
+main_2024 <- tidy_2024(main_2024)
+copy_2024 <- tidy_2024(copy_2024)
+
+setdiff(names(copy_2024), names(main_2024))   # expect character(0)
+setdiff(names(main_2024), names(copy_2024))   # 6 species genuinely only in main
+
+# ---------------------------------------------------------------------------
+# STEP 3 - bind and drop filler. 294 rows in main carry only total_points = 0
+# with no date, location or transect: spreadsheet padding, not observations.
+# bind_rows() fills the 6 main-only species with NA, which is correct -
+# "not recorded" is not the same claim as zero.
+# ---------------------------------------------------------------------------
+joined_2024 <- bind_rows(main_2024, copy_2024) |>
+  filter(!is.na(date), !is.na(location))
+
+nrow(joined_2024)   # 1054  (624 real from main + 430 from copy)
+
+# ---------------------------------------------------------------------------
+# STEP 4 - pivot long. all_of() for keys that must exist (a typo errors),
+# any_of() only for the genuinely optional ones.
+# ---------------------------------------------------------------------------
+long_2024 <- joined_2024 |>
+  pivot_longer(
+    -c(all_of(c("source_file", "date", "location",
+                "number_t", "position_number_on_transect_m")),
+       any_of(c("data_entry_by", "total_points", "sediment_depth",
+                "within_2m_proximity_of_attached_coral_colony_y_n_mamala_bay_only"))),
+    names_to = "taxon_raw", values_to = "count_raw"
+  ) |>
+  filter(!is.na(count_raw), count_raw != "")
+
+names(long_2024)                        # 11 columns
+n_distinct(long_2024$taxon_raw)
+long_2024 |> filter(str_detect(taxon_raw, "number|position")) |> count(taxon_raw)  # 0 rows
+
+# ---------------------------------------------------------------------------
+# STEP 5 - harmonise site spelling BEFORE deduplicating. location holds nine
+# spellings for four sites; if main says "Leahi" and the copy says "Leʻahi"
+# for the same survey, the key won't match and the duplicate won't collapse.
+# ---------------------------------------------------------------------------
+long_2024 <- long_2024 |>
+  mutate(site_key = match_key(location))
+
+# Inspect: does any site_key appear in both files under different spellings?
+long_2024 |>
+  count(site_key, location, source_file) |>
+  pivot_wider(names_from = source_file, values_from = n, values_fill = 0)
+
+# match_key() will NOT collapse "Mamala" and "Mamala Bay" - check that pair by hand
+long_2024 |> filter(str_starts(site_key, "mamala")) |> count(location, source_file)
+
+# ---------------------------------------------------------------------------
+# STEP 6 - deduplicate on the observation, not the file.
+# ---------------------------------------------------------------------------
+dedup_2024 <- long_2024 |>
+  distinct(date, site_key, number_t, position_number_on_transect_m,
+           taxon_raw, count_raw, .keep_all = TRUE)
+
+nrow(long_2024) - nrow(dedup_2024)   # duplicates removed
+
+# ---------------------------------------------------------------------------
+# STEP 7 - conflicts. Collapse identical observations FIRST (no source_file in
+# the distinct), so anything left with n > 1 is two different counts for the
+# same point and taxon - a real disagreement, not an overlap.
+# ---------------------------------------------------------------------------
+conflicts <- long_2024 |>
+  distinct(date, site_key, number_t, position_number_on_transect_m,
+           taxon_raw, count_raw) |>
+  count(date, site_key, number_t, position_number_on_transect_m, taxon_raw) |>
+  filter(n > 1)
+
+nrow(conflicts)   # aiming for 0
+
+dir.create(here("outputs"), showWarnings = FALSE, recursive = TRUE)
+write_csv(conflicts, here("outputs", "conflicts_2024.csv"))
+
+# See both values side by side for anything that conflicts
+long_2024 |>
+  semi_join(conflicts, by = c("date", "site_key", "number_t",
+                              "position_number_on_transect_m", "taxon_raw")) |>
+  arrange(date, site_key, number_t, position_number_on_transect_m, taxon_raw) |>
+  select(source_file, date, location, number_t,
+         position_number_on_transect_m, taxon_raw, count_raw) |>
+  print(n = 40)
+
+# ---------------------------------------------------------------------------
+# STEP 8 - type and tidy. Field notes live in some count cells
+# ("All T's", "Excluding T6") - capture them before as.numeric() discards them.
+# ---------------------------------------------------------------------------
+clean_2024 <- dedup_2024 |>
+  mutate(
+    note     = if_else(str_detect(count_raw, "^\\d+$"), NA_character_, count_raw),
+    count    = suppressWarnings(as.numeric(count_raw)),
+    date     = mdy(date),
+    transect = suppressWarnings(as.integer(number_t)),
+    position = suppressWarnings(as.numeric(position_number_on_transect_m)),
+    year     = year(date),
+    format   = "B"
+  ) |>
+  select(format, year, date, site_raw = location, site_key,
+         coder_id = data_entry_by, transect, position,
+         taxon_raw, count, note, source_file)
+
+stopifnot(
+  !any(is.na(clean_2024$date)),
+  !any(is.na(clean_2024$site_raw)),
+  !any(is.na(clean_2024$transect)),
+  all(clean_2024$count >= 0, na.rm = TRUE)
+)
+
+dir.create(here("Fabi", "Data"), showWarnings = FALSE, recursive = TRUE)
+write_csv(clean_2024, here("Fabi", "Data", "2024_joined_long.csv"))
+
+# ---------------------------------------------------------------------------
+# STEP 9 - review sheets for the lookups you build next
+# ---------------------------------------------------------------------------
+clean_2024 |>
+  count(site_raw, site_key, sort = TRUE) |>
+  group_by(site_key) |>
+  mutate(n_variants = n()) |>
+  ungroup() |>
+  arrange(site_key, desc(n)) |>
+  write_csv(here("Outputs", "site_names_to_review.csv"))
+
+clean_2024 |>
+  count(taxon_raw, sort = TRUE) |>
+  mutate(key = match_key(str_remove(taxon_raw, "_(sp|spp)$"))) |>
+  group_by(key) |>
+  mutate(n_variants = n()) |>
+  ungroup() |>
+  arrange(key) |>
+  write_csv(here("Outputs", "taxon_names_to_review.csv"))
+```
+
+
