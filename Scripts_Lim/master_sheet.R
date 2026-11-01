@@ -196,13 +196,7 @@ data_2024_2026 <- map_dfr(new_wide_files, process_wide_year)
 # 3. Stack layers and map your official master snail taxonomy criteria safely
 master_output <- bind_rows(data_2004_2020, data_2024_2026) %>%
   filter(!is.na(date), !is.na(site_key)) %>%
-  mutate(
-    taxon_raw = case_when(
-      taxon_raw %in% c("dendropoma_gregaria", "snail_dendropoma", "snail_dendropoma_gregarium") ~ "snail_dendropoma_gregarium",
-      taxon_raw %in% c("haminoea_cymbalum", "haminoea_cymbalum_green_snail")                     ~ "haminoea_cymbalum_green_snail",
-      TRUE                                                                                     ~ taxon_raw
-    )
-  ) %>%
+  
   # Coerce string trackers back to clean numbers after the stack pass finishes
   mutate(across(any_of(c("transect_id", "position", "number_of_transect_lines", "length_of_transect_lines", "number_of_quadrats_per_transect", "latitude", "longitude")), ~suppressWarnings(as.numeric(.)))) %>%
   distinct(date, site_key, transect_id, position, taxon_raw, count, .keep_all = TRUE)
@@ -297,3 +291,4 @@ normalized_analysis_data <- master_output %>%
 # Export this complete dataset with percent cover
 write_csv(normalized_analysis_data, here("Outputs", "master_normalized_percent_cover.csv"))
 message("Success! Your normalized data sheet is ready at: Outputs/master_normalized_percent_cover.csv")
+
