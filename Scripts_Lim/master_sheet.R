@@ -140,7 +140,7 @@ process_wide_year <- function(file_name) {
   raw_df <- raw_df %>% mutate(across(any_of(c("transect_id", "position", "coder_id")), ~as.character(.)))
   
   # Filter out structural trackers from getting scrambled into taxon items
-  metadata_garbage <- c("date", "location", "coder_id", "transect_id", "position", "total_points", "total", "totals", "unknown_bulbous_algae", "within_2m_proximity_of_attached_coral_colony_y_n_mamala_bay_only", "sediment_depth", "notes_corrections_to_data_sheet")
+  metadata_garbage <- c("date", "location", "coder_id", "transect_id", "position", "total_points", "total", "totals", "within_2m_proximity_of_attached_coral_colony_y_n_mamala_bay_only", "sediment_depth", "notes_corrections_to_data_sheet")
   species_cols <- setdiff(names(raw_df), metadata_garbage)
   species_cols <- species_cols[!str_detect(species_cols, "^x\\d+")] 
   
@@ -214,12 +214,14 @@ message("Success! Clean dataset saved with total rows: ", nrow(master_output), "
 # 1. Isolate unique Site Raw names with their corresponding computer matching keys
 unique_sites <- master_output %>%
   distinct(site_raw, site_key) %>%
-  arrange(site_key)
+  arrange(site_key) %>%
+  mutate(clean_site_name = "") # Create an empty column for you to type into
 
 # 2. Isolate unique Taxon Raw computer matching keys
 unique_taxa <- master_output %>%
   distinct(taxon_raw) %>%
-  arrange(taxon_raw)
+  arrange(taxon_raw) %>%
+  mutate(clean_taxon_name = "") # Create an empty column for you to type into
 
 # Create a blank workbook container object
 wb <- createWorkbook()
@@ -237,10 +239,42 @@ saveWorkbook(wb, here("Outputs", "master_unique_lookups.xlsx"), overwrite = TRUE
 message("Success! Multi-tab master lookup workbook saved to outputs/master_unique_lookups.xlsx")
 
 
+### Editing duplicate taxon & site names
+# Export these as easy templates to edit in Excel
+write_csv(unique_taxa, here("Outputs", "taxon_cleaning_lookup.csv"))
+write_csv(unique_sites, here("Outputs", "site_cleaning_lookup.csv"))
+
+message("Templates generated! Open 'taxon_cleaning_lookup.csv' and 'site_cleaning_lookup.csv' in Excel to assign corrections.")
+
+# Type the fix into the CSV sheet, then run this next code
+#1. Load your manually curated mapping spreadsheet teamplates
+taxon_lookup <- read_csv(here("Outputs", "taxon_cleaning_lookup.csv"), show_col_types = FALSE)
+site_lookup  <- read_csv(here("Outputs", "site_cleaning_lookup.csv"), show_col_types = FALSE)
+
+#2. Inject your master spelling corrections seamlessly
+master_output_cleaned <- master_output %>%
+  # Merge site corrections
+  left_join(site_lookup %>%
+            select(any_of(c("site_raw", "clean_site_name"))), by = "site_raw") %>%
+  mutate(site_key = if_else(!is.na(clean_site_name) & clean_site_name != "", clean_site_name, site_key)) %>%
+  select(-clean_site_name) %>%
+  
+  # Merge taxon corrections
+  left_join(taxon_lookup, by = "taxon_raw") %>%
+  mutate(taxon_raw = if_else(!is.na(clean_taxon_name) & clean_taxon_name != "", clean_taxon_name, taxon_raw)) %>%
+  select(-clean_taxon_name) %>%
+  
+  # Final structural alignment cleanup rules
+  distinct(date, site_key, transect_id, position, taxon_raw, count, .keep_all = TRUE)
+
+#3. Export fully corrected, pristine data matrix architectures
+write_csv(master_output_cleaned, here("Outputs", "clean_master_sheet.csv"))
+message("Success! Cleaned master sheet compiled using spreadsheet lookups.")
+  
 
 ### Validation script to check if every quadrat row successfully sums up to 25 total points
 # 1. Run the point-sum validation check per unique quadrat sample
-quadrat_validation <- master_output %>%
+quadrat_validation <- master_output_cleaned %>%
   # Group by the unique environmental anchors that isolate a single quadrat sample
   group_by(date, site_key, transect_id, position) %>%
   summarize(
@@ -280,7 +314,7 @@ if (nrow(broken_quadrats) > 0) {
 
 
 ### Programmatically normalize counts to Percent Cover to bypass the broken totals
-normalized_analysis_data <- master_output %>%
+normalized_analysis_data <- master_output_cleaned %>%
   group_by(date, site_key, transect_id, position) %>%
   mutate(
     quadrat_total_pts = sum(count, na.rm = TRUE),
