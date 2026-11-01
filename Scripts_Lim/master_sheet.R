@@ -171,6 +171,26 @@ process_wide_year <- function(file_name) {
   return(long_df)
 }
 
+### PARSER C: Processes wide Matrix Blocks (2025-2026 Metadata)
+process_metadata_sheet <- function(file_name) {
+  cleaned_metadata <- read_csv(
+    here("Data_Clean", file_name), 
+    col_types = cols(.default = "c"), # Forces all columns to load as safe character text
+    show_col_types = FALSE
+  ) %>%
+    clean_names() %>%
+    rename_with(~ case_when(
+      .x == "location"                               ~ "site_raw",
+      grepl("lines", .x)                             ~ "number_of_transect_lines",
+      grepl("longest", .x)                           ~ "longest_transect_m",
+      grepl("dist|space|spacing", .x)                ~ "point_spacing",
+      grepl("quad", .x)                              ~ "number_of_quadrats_per_transect",
+      grepl("end|stop", .x)                          ~ "stop_time",
+      TRUE ~ .x
+    ))
+  
+  return(cleaned_metadata)
+}
 
 
 ### Compile batch matrix groups and union pass ################################
@@ -193,18 +213,46 @@ new_wide_files <- c(
 )
 data_2024_2026 <- map_dfr(new_wide_files, process_wide_year)
 
-# 3. Stack layers and map your official master snail taxonomy criteria safely
+# 3. Run Pipeline 3 for the 2025-2026 metadata wide Batches
+metadata_files <- c(
+  "2025_metadata_BIOL499_anonymized_output.csv",
+  "2026_metadata_anonymized_output.csv",
+  "2026_metadata_Mauliola_anonymized_output.csv"
+)
+metadata_2025_2026 <- map_df(metadata_files, process_metadata_sheet)
+
+# 4. Stack layers and map your official master snail taxonomy criteria safely
 master_output <- bind_rows(data_2004_2020, data_2024_2026) %>%
+  # 1. Horizontally attach environmental metadata using date and raw site keys
+  left_join(metadata_2025_2026, by = c("date", "site_raw")) %>%
+  
+  # 2. Seamlessly merge the overlapping columns (.y overwrites .x if present)
+  mutate(
+    start_time = coalesce(start_time.y, start_time.x),
+    stop_time = coalesce(stop_time.y, stop_time.x),
+    number_of_transect_lines = coalesce(number_of_transect_lines.y, number_of_transect_lines.x),
+    point_spacing = coalesce(point_spacing.y, point_spacing.x),
+    number_of_quadrats_per_transect = coalesce(number_of_quadrats_per_transect.y, number_of_quadrats_per_transect.x)
+  ) %>%
+  
+  # 3. Clean up and remove the messy temporary .x and .y suffix columns
+  select(-ends_with(".x"), -ends_with(".y")) %>%
+  
+  # 4. Filter out missing vital keys
   filter(!is.na(date), !is.na(site_key)) %>%
   
-  # Coerce string trackers back to clean numbers after the stack pass finishes
-  mutate(across(any_of(c("transect_id", "position", "number_of_transect_lines", "length_of_transect_lines", "number_of_quadrats_per_transect", "latitude", "longitude")), ~suppressWarnings(as.numeric(.)))) %>%
-  distinct(date, site_key, transect_id, position, taxon_raw, count, .keep_all = TRUE)
+  # 5. Coerce string trackers back to clean numbers after the stack and join finishes
+  mutate(across(any_of(c(
+    "transect_id", "position", "number_of_transect_lines", 
+    "length_of_transect_lines", "number_of_quadrats_per_transect", 
+    "latitude", "longitude", "point_spacing", "low_tide_height", "number_of_collecting", "longest_transect_m")), ~suppressWarnings(as.numeric(gsub("[^0-9.-]", "", .)))))  %>%
+  # 6. Remove duplicate entires
+  distinct(date, site_key, transect_id, position, taxon_raw, count, .keep_all = TRUE) %>%
 
-# 4. Export clean stacked master spreadsheet
+# 7. Export clean stacked master spreadsheet
 dir.create(here("Outputs"), showWarnings = FALSE, recursive = TRUE)
 
-# 5. Export finalized consolidated master long dataset to disk
+# 8. Export finalized consolidated master long dataset to disk
 write_csv(master_output, here("Outputs", "master_joined_long.csv"))
 message("Success! Clean dataset saved with total rows: ", nrow(master_output), " clean rows.")
 
@@ -235,7 +283,7 @@ writeData(wb, "Unique Sites Matrix", unique_sites)
 writeData(wb, "Unique Species Taxonomy", unique_taxa)
 
 # Save the unified workbook out to disk
-saveWorkbook(wb, here("Outputs", "master_unique_lookups.xlsx"), overwrite = TRUE)
+saveWorkbook(wb, here("Outputs", "master_unique_lookups2.xlsx"), overwrite = TRUE)
 message("Success! Multi-tab master lookup workbook saved to outputs/master_unique_lookups.xlsx")
 
 
@@ -246,7 +294,7 @@ write_csv(unique_sites, here("Outputs", "site_cleaning_lookup.csv"))
 
 message("Templates generated! Open 'taxon_cleaning_lookup.csv' and 'site_cleaning_lookup.csv' in Excel to assign corrections.")
 
-# Type the fix into the CSV sheet, then run this next code
+### Type the fix into the CSV sheet, then run this next code
 #1. Load your manually curated mapping spreadsheet teamplates
 taxon_lookup <- read_csv(here("Outputs", "taxon_cleaning_lookup.csv"), show_col_types = FALSE)
 site_lookup  <- read_csv(here("Outputs", "site_cleaning_lookup.csv"), show_col_types = FALSE)
