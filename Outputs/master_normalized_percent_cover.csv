@@ -67,10 +67,10 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,4,4.5,cladophora_or_cladophoropsis_spp,5,14,35.714285714285715
 2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,4.5,crustose_coralline_algae,3,17,17.647058823529413
 2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,0.5,crustose_coralline_algae,1,39,2.564102564102564
-2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,6.5,snail_dendropoma_gregarium,3,29,10.344827586206897
-2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,7.5,snail_dendropoma_gregarium,4,25,16
-2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,4,6.5,snail_dendropoma_gregarium,1,21,4.761904761904762
-2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,4,10.5,snail_dendropoma_gregarium,2,4,50
+2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,6.5,dendropoma_gregaria,3,29,10.344827586206897
+2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,7.5,dendropoma_gregaria,4,25,16
+2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,4,6.5,dendropoma_gregaria,1,21,4.761904761904762
+2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,4,10.5,dendropoma_gregaria,2,4,50
 2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,2.5,dictyota_spp,3,16,18.75
 2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,4.5,dictyota_spp,1,17,5.88235294117647
 2/24/04,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,5.5,dictyota_spp,3,20,15
@@ -665,7 +665,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/1/05,0:00:00,1:00:00,6,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,10.5,acanthophora_spicifera,2,21,9.523809523809524
 5/1/05,0:00:00,1:00:00,6,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,5,12.5,acanthophora_spicifera,1,7,14.285714285714285
 5/1/05,0:00:00,1:00:00,6,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,6,12.5,acanthophora_spicifera,1,13,7.6923076923076925
-5/1/05,0:00:00,1:00:00,6,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,6,14.5,snail_dendropoma_gregarium,10,11,90.9090909090909
+5/1/05,0:00:00,1:00:00,6,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,6,14.5,dendropoma_gregaria,10,11,90.9090909090909
 5/1/05,0:00:00,1:00:00,6,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,6.5,dictyosphaeria_versluysii,3,16,18.75
 5/1/05,0:00:00,1:00:00,6,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,10.5,dictyosphaeria_versluysii,1,21,4.761904761904762
 5/1/05,0:00:00,1:00:00,6,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,12.5,dictyosphaeria_versluysii,1,4,25
@@ -731,9 +731,9 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/1/05,0:00:00,1:00:00,3,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,8.5,acanthophora_spicifera,2,23,8.695652173913043
 5/1/05,0:00:00,1:00:00,3,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,9.5,acanthophora_spicifera,3,7,42.857142857142854
 5/1/05,0:00:00,1:00:00,3,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,6.5,cladophora_or_cladophoropsis_spp,6,18,33.33333333333333
-5/1/05,0:00:00,1:00:00,3,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,7.5,snail_dendropoma_gregarium,1,24,4.166666666666666
-5/1/05,0:00:00,1:00:00,3,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,8.5,snail_dendropoma_gregarium,4,25,16
-5/1/05,0:00:00,1:00:00,3,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,9.5,snail_dendropoma_gregarium,4,13,30.76923076923077
+5/1/05,0:00:00,1:00:00,3,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,7.5,dendropoma_gregaria,1,24,4.166666666666666
+5/1/05,0:00:00,1:00:00,3,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,8.5,dendropoma_gregaria,4,25,16
+5/1/05,0:00:00,1:00:00,3,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,9.5,dendropoma_gregaria,4,13,30.76923076923077
 5/1/05,0:00:00,1:00:00,3,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,1.5,dictyota_spp,9,24,37.5
 5/1/05,0:00:00,1:00:00,3,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,2.5,dictyota_spp,1,14,7.142857142857142
 5/1/05,0:00:00,1:00:00,3,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,6.5,dictyota_spp,1,18,5.555555555555555
@@ -892,10 +892,10 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,10.5,acanthophora_spicifera,6,16,37.5
 4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,12.5,acanthophora_spicifera,1,20,5
 4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,20.5,calcinus_seurati,1,3,33.33333333333333
-4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,12.5,snail_dendropoma_gregarium,1,8,12.5
-4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,14.5,snail_dendropoma_gregarium,6,8,75
-4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,14.5,snail_dendropoma_gregarium,7,12,58.333333333333336
-4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,12.5,snail_dendropoma_gregarium,17,20,85
+4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,12.5,dendropoma_gregaria,1,8,12.5
+4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,14.5,dendropoma_gregaria,6,8,75
+4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,14.5,dendropoma_gregaria,7,12,58.333333333333336
+4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,12.5,dendropoma_gregaria,17,20,85
 4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,10.5,dictyosphaeria_versluysii,1,6,16.666666666666664
 4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,2.5,dictyota_spp,2,25,8
 4/27/05,0:00:00,1:00:00,4,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,4.5,dictyota_spp,15,24,62.5
@@ -949,7 +949,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/22/05,0:00:00,1:00:00,5,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,4,0.5,acanthophora_spicifera,1,14,7.142857142857142
 4/22/05,0:00:00,1:00:00,5,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,4,2.5,acanthophora_spicifera,3,21,14.285714285714285
 4/22/05,0:00:00,1:00:00,5,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,9.5,barnacles_spp,1,2,50
-4/22/05,0:00:00,1:00:00,5,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,5,2.5,snail_dendropoma_gregarium,1,24,4.166666666666666
+4/22/05,0:00:00,1:00:00,5,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,5,2.5,dendropoma_gregaria,1,24,4.166666666666666
 4/22/05,0:00:00,1:00:00,5,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,2.5,dictyosphaeria_versluysii,3,23,13.043478260869565
 4/22/05,0:00:00,1:00:00,5,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,1.5,dictyosphaeria_versluysii,2,25,8
 4/22/05,0:00:00,1:00:00,5,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,5.5,dictyosphaeria_versluysii,1,24,4.166666666666666
@@ -1077,11 +1077,11 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,12.5,brown_crust,3,9,33.33333333333333
 3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,6.5,codium_spp,1,10,10
 3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,8.5,crustose_coralline_algae,1,25,4
-3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,12.5,snail_dendropoma_gregarium,3,9,33.33333333333333
-3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,12.5,snail_dendropoma_gregarium,1,6,16.666666666666664
-3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,2.5,snail_dendropoma_gregarium,1,24,4.166666666666666
-3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,12.5,snail_dendropoma_gregarium,6,23,26.08695652173913
-3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,5,12.5,snail_dendropoma_gregarium,7,14,50
+3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,12.5,dendropoma_gregaria,3,9,33.33333333333333
+3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,12.5,dendropoma_gregaria,1,6,16.666666666666664
+3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,2.5,dendropoma_gregaria,1,24,4.166666666666666
+3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,12.5,dendropoma_gregaria,6,23,26.08695652173913
+3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,5,12.5,dendropoma_gregaria,7,14,50
 3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,4.5,dictyosphaeria_versluysii,1,25,4
 3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,8.5,dictyosphaeria_versluysii,3,25,12
 3/30/05,0:00:00,1:00:00,5,20,2 meters,10,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,12.5,dictyosphaeria_versluysii,2,9,22.22222222222222
@@ -1177,8 +1177,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 3/5/05,0:00:00,1:00:00,7,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,4,1.5,acanthophora_spicifera,1,23,4.3478260869565215
 3/5/05,0:00:00,1:00:00,7,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,0.5,acanthophora_spicifera,2,22,9.090909090909092
 3/5/05,0:00:00,1:00:00,7,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,9.5,barnacles_spp,1,2,50
-3/5/05,0:00:00,1:00:00,7,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,2.5,snail_dendropoma_gregarium,1,26,3.8461538461538463
-3/5/05,0:00:00,1:00:00,7,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,9.5,snail_dendropoma_gregarium,2,2,100
+3/5/05,0:00:00,1:00:00,7,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,2.5,dendropoma_gregaria,1,26,3.8461538461538463
+3/5/05,0:00:00,1:00:00,7,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,9.5,dendropoma_gregaria,2,2,100
 3/5/05,0:00:00,1:00:00,7,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,1.5,dictyosphaeria_versluysii,1,20,5
 3/5/05,0:00:00,1:00:00,7,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,5.5,dictyosphaeria_versluysii,3,22,13.636363636363635
 3/5/05,0:00:00,1:00:00,7,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,5,1.5,dictyosphaeria_versluysii,1,26,3.8461538461538463
@@ -1363,8 +1363,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/18/05,0:00:00,1:00:00,6,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,1.5,acanthophora_spicifera,5,19,26.31578947368421
 2/18/05,0:00:00,1:00:00,6,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,9.5,barnacles_spp,2,2,100
 2/18/05,0:00:00,1:00:00,6,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,9.5,barnacles_spp,1,3,33.33333333333333
-2/18/05,0:00:00,1:00:00,6,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,6.5,snail_dendropoma_gregarium,2,15,13.333333333333334
-2/18/05,0:00:00,1:00:00,6,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,7.5,snail_dendropoma_gregarium,1,13,7.6923076923076925
+2/18/05,0:00:00,1:00:00,6,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,6.5,dendropoma_gregaria,2,15,13.333333333333334
+2/18/05,0:00:00,1:00:00,6,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,7.5,dendropoma_gregaria,1,13,7.6923076923076925
 2/18/05,0:00:00,1:00:00,6,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,6.5,dictyosphaeria_versluysii,8,15,53.333333333333336
 2/18/05,0:00:00,1:00:00,6,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,4,0.5,dictyosphaeria_versluysii,1,24,4.166666666666666
 2/18/05,0:00:00,1:00:00,6,9,1 meter,10,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,0.5,dictyosphaeria_versluysii,6,18,33.33333333333333
@@ -2498,16 +2498,16 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,2.5,cladophora_or_cladophoropsis_spp,4,23,17.391304347826086
 4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,3.5,cladophora_or_cladophoropsis_spp,2,22,9.090909090909092
 4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,1.5,crustose_coralline_algae,1,27,3.7037037037037033
-4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,6.5,snail_dendropoma_gregarium,2,11,18.181818181818183
-4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,7.5,snail_dendropoma_gregarium,8,12,66.66666666666666
-4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,8.5,snail_dendropoma_gregarium,7,10,70
-4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,7.5,snail_dendropoma_gregarium,3,9,33.33333333333333
-4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,3.5,snail_dendropoma_gregarium,2,23,8.695652173913043
-4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,4.5,snail_dendropoma_gregarium,25,26,96.15384615384616
-4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,5.5,snail_dendropoma_gregarium,5,20,25
-4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,3.5,snail_dendropoma_gregarium,3,22,13.636363636363635
-4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,4.5,snail_dendropoma_gregarium,15,24,62.5
-4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,5.5,snail_dendropoma_gregarium,10,17,58.82352941176471
+4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,6.5,dendropoma_gregaria,2,11,18.181818181818183
+4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,7.5,dendropoma_gregaria,8,12,66.66666666666666
+4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,8.5,dendropoma_gregaria,7,10,70
+4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,7.5,dendropoma_gregaria,3,9,33.33333333333333
+4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,3.5,dendropoma_gregaria,2,23,8.695652173913043
+4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,4.5,dendropoma_gregaria,25,26,96.15384615384616
+4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,5.5,dendropoma_gregaria,5,20,25
+4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,3.5,dendropoma_gregaria,3,22,13.636363636363635
+4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,4.5,dendropoma_gregaria,15,24,62.5
+4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,5.5,dendropoma_gregaria,10,17,58.82352941176471
 4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,2.5,dictyopteris_spp,1,19,5.263157894736842
 4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,3.5,dictyopteris_spp,5,27,18.51851851851852
 4/19/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,1.5,dictyopteris_spp,9,55,16.363636363636363
@@ -2919,14 +2919,14 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,4.5,crustose_coralline_algae,3,33,9.090909090909092
 4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,5.5,crustose_coralline_algae,3,24,12.5
 4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,0.5,crustose_coralline_algae,2,36,5.555555555555555
-4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,5,4.5,snail_dendropoma_gregarium,3,55,5.454545454545454
-4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,3.5,snail_dendropoma_gregarium,6,23,26.08695652173913
-4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,4.5,snail_dendropoma_gregarium,5,33,15.151515151515152
-4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,5.5,snail_dendropoma_gregarium,14,24,58.333333333333336
-4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,6.5,snail_dendropoma_gregarium,15,20,75
-4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,6.5,snail_dendropoma_gregarium,3,31,9.67741935483871
-4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,7.5,snail_dendropoma_gregarium,7,15,46.666666666666664
-4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,8.5,snail_dendropoma_gregarium,5,12,41.66666666666667
+4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,5,4.5,dendropoma_gregaria,3,55,5.454545454545454
+4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,3.5,dendropoma_gregaria,6,23,26.08695652173913
+4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,4.5,dendropoma_gregaria,5,33,15.151515151515152
+4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,5.5,dendropoma_gregaria,14,24,58.333333333333336
+4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,6.5,dendropoma_gregaria,15,20,75
+4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,6.5,dendropoma_gregaria,3,31,9.67741935483871
+4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,7.5,dendropoma_gregaria,7,15,46.666666666666664
+4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,8.5,dendropoma_gregaria,5,12,41.66666666666667
 4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,4.5,dictyopteris_spp,3,28,10.714285714285714
 4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,4,3.5,dictyopteris_spp,4,49,8.16326530612245
 4/18/07,0:00:00,1:00:00,7,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,4,4.5,dictyosphaeria_cavernosa,1,39,2.564102564102564
@@ -3197,9 +3197,9 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/16/06,0:00:00,1:00:00,4,20,4 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,4,chaetomorpha_antennina,1,25,4
 5/16/06,0:00:00,1:00:00,4,20,4 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,4,crustose_coralline_algae,1,25,4
 5/16/06,0:00:00,1:00:00,4,20,4 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,12,crustose_coralline_algae,1,34,2.941176470588235
-5/16/06,0:00:00,1:00:00,4,20,4 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,8,snail_dendropoma_gregarium,9,52,17.307692307692307
-5/16/06,0:00:00,1:00:00,4,20,4 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,12,snail_dendropoma_gregarium,3,34,8.823529411764707
-5/16/06,0:00:00,1:00:00,4,20,4 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,16,snail_dendropoma_gregarium,2,27,7.4074074074074066
+5/16/06,0:00:00,1:00:00,4,20,4 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,8,dendropoma_gregaria,9,52,17.307692307692307
+5/16/06,0:00:00,1:00:00,4,20,4 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,12,dendropoma_gregaria,3,34,8.823529411764707
+5/16/06,0:00:00,1:00:00,4,20,4 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,16,dendropoma_gregaria,2,27,7.4074074074074066
 5/16/06,0:00:00,1:00:00,4,20,4 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,4,dictyosphaeria_cavernosa,6,25,24
 5/16/06,0:00:00,1:00:00,4,20,4 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,8,dictyosphaeria_cavernosa,9,52,17.307692307692307
 5/16/06,0:00:00,1:00:00,4,20,4 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,12,dictyosphaeria_cavernosa,4,34,11.76470588235294
@@ -3232,8 +3232,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/15/06,0:00:00,1:00:00,7,25,5 meters,5,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,1,5,bornetella_sphaerica,2,10,20
 5/15/06,0:00:00,1:00:00,7,25,5 meters,5,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,1,10,bornetella_sphaerica,1,1,100
 5/15/06,0:00:00,1:00:00,7,25,5 meters,5,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,7,4,codium_edule,1,13,7.6923076923076925
-5/15/06,0:00:00,1:00:00,7,25,5 meters,5,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,7,8,snail_dendropoma_gregarium,3,14,21.428571428571427
-5/15/06,0:00:00,1:00:00,7,25,5 meters,5,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,7,16,snail_dendropoma_gregarium,8,15,53.333333333333336
+5/15/06,0:00:00,1:00:00,7,25,5 meters,5,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,7,8,dendropoma_gregaria,3,14,21.428571428571427
+5/15/06,0:00:00,1:00:00,7,25,5 meters,5,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,7,16,dendropoma_gregaria,8,15,53.333333333333336
 5/15/06,0:00:00,1:00:00,7,25,5 meters,5,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,4,15,dictyosphaeria_versluysii,1,2,50
 5/15/06,0:00:00,1:00:00,7,25,5 meters,5,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,1,5,echinometra_oblonga,1,10,10
 5/15/06,0:00:00,1:00:00,7,25,5 meters,5,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,3,20,echinometra_oblonga,1,5,20
@@ -3274,8 +3274,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/15/06,0:00:00,1:00:00,7,25,5 meters,5,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,7,12,turf_spp,1,4,25
 5/12/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,20,asteronema_breviarticulatum,3,19,15.789473684210526
 5/12/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,20,brown_crust,6,19,31.57894736842105
-5/12/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,10,snail_dendropoma_gregarium,3,34,8.823529411764707
-5/12/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,10,snail_dendropoma_gregarium,2,33,6.0606060606060606
+5/12/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,10,dendropoma_gregaria,3,34,8.823529411764707
+5/12/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,10,dendropoma_gregaria,2,33,6.0606060606060606
 5/12/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,10,dictyosphaeria_versluysii,1,34,2.941176470588235
 5/12/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,15,dictyosphaeria_versluysii,3,23,13.043478260869565
 5/12/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,10,dictyosphaeria_versluysii,1,33,3.0303030303030303
@@ -3380,8 +3380,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/27/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,10,acanthophora_spicifera,1,2,50
 4/27/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,20,codium_edule,1,4,25
 4/27/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,20,crustose_coralline_algae,1,4,25
-4/27/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,10,snail_dendropoma_gregarium,11,24,45.83333333333333
-4/27/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,20,snail_dendropoma_gregarium,14,18,77.77777777777779
+4/27/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,10,dendropoma_gregaria,11,24,45.83333333333333
+4/27/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,20,dendropoma_gregaria,14,18,77.77777777777779
 4/27/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,5,dictyosphaeria_cavernosa,7,10,70
 4/27/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,10,dictyosphaeria_cavernosa,1,2,50
 4/27/06,0:00:00,1:00:00,4,25,5 meters,5,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,1,10,dictyosphaeria_versluysii,1,4,25
@@ -3488,8 +3488,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/17/06,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,9.5,barnacles_spp,1,2,50
 4/17/06,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,4,3.5,colpomenia_sinuosa,1,19,5.263157894736842
 4/17/06,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,5,0.5,colpomenia_sinuosa,1,24,4.166666666666666
-4/17/06,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,5,5.5,snail_dendropoma_gregarium,2,24,8.333333333333332
-4/17/06,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,6.5,snail_dendropoma_gregarium,8,24,33.33333333333333
+4/17/06,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,5,5.5,dendropoma_gregaria,2,24,8.333333333333332
+4/17/06,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,6,6.5,dendropoma_gregaria,8,24,33.33333333333333
 4/17/06,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,0.5,dictyosphaeria_versluysii,2,23,8.695652173913043
 4/17/06,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,1.5,dictyosphaeria_versluysii,1,16,6.25
 4/17/06,0:00:00,1:00:00,6,11,1 meter,12,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,3.5,dictyosphaeria_versluysii,1,18,5.555555555555555
@@ -3809,10 +3809,10 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,3,19,crustose_coralline_algae,7,23,30.434782608695656
 2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,4,11,crustose_coralline_algae,2,25,8
 2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,4,13,crustose_coralline_algae,1,24,4.166666666666666
-2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,2,15,snail_dendropoma_gregarium,17,26,65.38461538461539
-2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,2,19,snail_dendropoma_gregarium,25,25,100
-2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,4,17,snail_dendropoma_gregarium,20,25,80
-2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,4,19,snail_dendropoma_gregarium,15,24,62.5
+2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,2,15,dendropoma_gregaria,17,26,65.38461538461539
+2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,2,19,dendropoma_gregaria,25,25,100
+2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,4,17,dendropoma_gregaria,20,25,80
+2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,4,19,dendropoma_gregaria,15,24,62.5
 2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,2,9,dictyosphaeria_spp,1,21,4.761904761904762
 2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,2,13,dictyosphaeria_spp,2,19,10.526315789473683
 2/23/08,0:00:00,1:00:00,4,21,2 meters,11,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,2,15,dictyosphaeria_spp,2,26,7.6923076923076925
@@ -4315,7 +4315,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/28/16,9:52:00,12:22:00,4,14,1.5 meters,10,Waipuilani,waipuilani,20.7537,-156.460907,School_4,NA,3,11,crustose_coralline_algae,8,8,100
 4/28/16,9:52:00,12:22:00,4,14,1.5 meters,10,Waipuilani,waipuilani,20.7537,-156.460907,School_4,NA,3,12,crustose_coralline_algae,8,10,80
 4/28/16,9:52:00,12:22:00,4,14,1.5 meters,10,Waipuilani,waipuilani,20.7537,-156.460907,School_4,NA,3,14,crustose_coralline_algae,4,4,100
-4/28/16,9:52:00,12:22:00,4,14,1.5 meters,10,Waipuilani,waipuilani,20.7537,-156.460907,School_4,NA,3,2,snail_dendropoma_gregarium,5,11,45.45454545454545
+4/28/16,9:52:00,12:22:00,4,14,1.5 meters,10,Waipuilani,waipuilani,20.7537,-156.460907,School_4,NA,3,2,dendropoma_gregaria,5,11,45.45454545454545
 4/28/16,9:52:00,12:22:00,4,14,1.5 meters,10,Waipuilani,waipuilani,20.7537,-156.460907,School_4,NA,3,8,nerita_picea,11,15,73.33333333333333
 4/28/16,9:52:00,12:22:00,4,14,1.5 meters,10,Waipuilani,waipuilani,20.7537,-156.460907,School_4,NA,3,9,nerita_picea,2,14,14.285714285714285
 4/28/16,9:52:00,12:22:00,4,14,1.5 meters,10,Waipuilani,waipuilani,20.7537,-156.460907,School_4,NA,3,12,nerita_picea,2,10,20
@@ -4549,9 +4549,9 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/19/16,8:40:00,10:00:00,5,14,2 meters,7,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,3,8,cyanobacteria_spp,4,23,17.391304347826086
 4/19/16,8:40:00,10:00:00,5,14,2 meters,7,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,5,0,cyanobacteria_spp,5,24,20.833333333333336
 4/19/16,8:40:00,10:00:00,5,14,2 meters,7,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,5,4,cyanobacteria_spp,1,22,4.545454545454546
-4/19/16,8:40:00,10:00:00,5,14,2 meters,7,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,2,8,snail_dendropoma_gregarium,1,10,10
-4/19/16,8:40:00,10:00:00,5,14,2 meters,7,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,4,8,snail_dendropoma_gregarium,23,23,100
-4/19/16,8:40:00,10:00:00,5,14,2 meters,7,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,5,6,snail_dendropoma_gregarium,12,25,48
+4/19/16,8:40:00,10:00:00,5,14,2 meters,7,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,2,8,dendropoma_gregaria,1,10,10
+4/19/16,8:40:00,10:00:00,5,14,2 meters,7,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,4,8,dendropoma_gregaria,23,23,100
+4/19/16,8:40:00,10:00:00,5,14,2 meters,7,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,5,6,dendropoma_gregaria,12,25,48
 4/19/16,8:40:00,10:00:00,5,14,2 meters,7,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,1,0,dictyosphaeria_spp,1,22,4.545454545454546
 4/19/16,8:40:00,10:00:00,5,14,2 meters,7,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,4,0,dictyosphaeria_spp,1,15,6.666666666666667
 4/19/16,8:40:00,10:00:00,5,14,2 meters,7,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,4,6,dictyosphaeria_spp,2,15,13.333333333333334
@@ -4966,10 +4966,10 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,3,5,cyanobacteria_spp,1,21,4.761904761904762
 4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,4,2,cyanobacteria_spp,1,19,5.263157894736842
 4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,4,3,cyanobacteria_spp,10,20,50
-4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,3,2,snail_dendropoma_gregarium,3,23,13.043478260869565
-4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,3,3,snail_dendropoma_gregarium,1,23,4.3478260869565215
-4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,4,2,snail_dendropoma_gregarium,2,19,10.526315789473683
-4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,4,5,snail_dendropoma_gregarium,6,22,27.27272727272727
+4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,3,2,dendropoma_gregaria,3,23,13.043478260869565
+4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,3,3,dendropoma_gregaria,1,23,4.3478260869565215
+4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,4,2,dendropoma_gregaria,2,19,10.526315789473683
+4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,4,5,dendropoma_gregaria,6,22,27.27272727272727
 4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,4,5,dictyosphaeria_spp,6,22,27.27272727272727
 4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,1,0,dictyota_spp,1,11,9.090909090909092
 4/11/16,12:40:00,13:45:00,4,26,1 meter,9,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,3,2,echinometra_mathaei,2,23,8.695652173913043
@@ -5367,8 +5367,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/8/16,9:32:00,10:45:00,5,21,1 meter,5,Waiopae,waiopae,19.488199,-154.81930500000001,School_12,NA,4,5,crustose_coralline_algae,11,25,44
 4/8/16,9:32:00,10:45:00,5,21,1 meter,5,Waiopae,waiopae,19.488199,-154.81930500000001,School_12,NA,3,1,cyanobacteria_spp,2,15,13.333333333333334
 4/8/16,9:32:00,10:45:00,5,21,1 meter,5,Waiopae,waiopae,19.488199,-154.81930500000001,School_12,NA,3,2,cyanobacteria_spp,1,25,4
-4/8/16,9:32:00,10:45:00,5,21,1 meter,5,Waiopae,waiopae,19.488199,-154.81930500000001,School_12,NA,1,3,snail_dendropoma_gregarium,1,25,4
-4/8/16,9:32:00,10:45:00,5,21,1 meter,5,Waiopae,waiopae,19.488199,-154.81930500000001,School_12,NA,4,2,snail_dendropoma_gregarium,3,25,12
+4/8/16,9:32:00,10:45:00,5,21,1 meter,5,Waiopae,waiopae,19.488199,-154.81930500000001,School_12,NA,1,3,dendropoma_gregaria,1,25,4
+4/8/16,9:32:00,10:45:00,5,21,1 meter,5,Waiopae,waiopae,19.488199,-154.81930500000001,School_12,NA,4,2,dendropoma_gregaria,3,25,12
 4/8/16,9:32:00,10:45:00,5,21,1 meter,5,Waiopae,waiopae,19.488199,-154.81930500000001,School_12,NA,1,4,echinometra_mathaei,1,25,4
 4/8/16,9:32:00,10:45:00,5,21,1 meter,5,Waiopae,waiopae,19.488199,-154.81930500000001,School_12,NA,3,1,lyngbya_majuscula,1,15,6.666666666666667
 4/8/16,9:32:00,10:45:00,5,21,1 meter,5,Waiopae,waiopae,19.488199,-154.81930500000001,School_12,NA,3,2,lyngbya_majuscula,3,25,12
@@ -5465,12 +5465,12 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,7,2,crustose_coralline_algae,3,22,13.636363636363635
 4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,7,4,crustose_coralline_algae,1,25,4
 4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,1,0,cyanobacteria_spp,1,26,3.8461538461538463
-4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,1,8,snail_dendropoma_gregarium,13,21,61.904761904761905
-4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,3,8,snail_dendropoma_gregarium,4,6,66.66666666666666
-4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,3,10,snail_dendropoma_gregarium,6,6,100
-4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,5,10,snail_dendropoma_gregarium,1,2,50
-4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,6,8,snail_dendropoma_gregarium,12,20,60
-4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,7,8,snail_dendropoma_gregarium,10,14,71.42857142857143
+4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,1,8,dendropoma_gregaria,13,21,61.904761904761905
+4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,3,8,dendropoma_gregaria,4,6,66.66666666666666
+4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,3,10,dendropoma_gregaria,6,6,100
+4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,5,10,dendropoma_gregaria,1,2,50
+4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,6,8,dendropoma_gregaria,12,20,60
+4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,7,8,dendropoma_gregaria,10,14,71.42857142857143
 4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,7,0,dictyosphaeria_spp,2,25,8
 4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,5,0,dictyosphaeria_versluysii,4,20,20
 4/7/16,9:10:00,11:15:00,7,10,2 meters,6,Diamond Head,diamond_head,21.25544,-157.810303,School_4,NA,1,10,dictyota_spp,17,20,85
@@ -6324,9 +6324,9 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 3/10/16,10:22:00,11:31:00,7,21,1 meter,6,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,7,0,codium_spp,1,25,4
 3/10/16,10:22:00,11:31:00,7,21,1 meter,6,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,5,0,crustose_coralline_algae,1,18,5.555555555555555
 3/10/16,10:22:00,11:31:00,7,21,1 meter,6,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,3,8,cyanobacteria_spp,2,11,18.181818181818183
-3/10/16,10:22:00,11:31:00,7,21,1 meter,6,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,2,8,snail_dendropoma_gregarium,1,12,8.333333333333332
-3/10/16,10:22:00,11:31:00,7,21,1 meter,6,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,3,8,snail_dendropoma_gregarium,5,11,45.45454545454545
-3/10/16,10:22:00,11:31:00,7,21,1 meter,6,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,5,4,snail_dendropoma_gregarium,5,21,23.809523809523807
+3/10/16,10:22:00,11:31:00,7,21,1 meter,6,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,2,8,dendropoma_gregaria,1,12,8.333333333333332
+3/10/16,10:22:00,11:31:00,7,21,1 meter,6,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,3,8,dendropoma_gregaria,5,11,45.45454545454545
+3/10/16,10:22:00,11:31:00,7,21,1 meter,6,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,5,4,dendropoma_gregaria,5,21,23.809523809523807
 3/10/16,10:22:00,11:31:00,7,21,1 meter,6,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,6,4,dictyosphaeria_spp,2,12,16.666666666666664
 3/10/16,10:22:00,11:31:00,7,21,1 meter,6,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,2,16,echinometra_oblonga,2,4,50
 3/10/16,10:22:00,11:31:00,7,21,1 meter,6,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,1,20,gelidiella_acerosa,2,15,13.333333333333334
@@ -6563,7 +6563,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/28/16,11:45:00,13:30:00,3,21,1 meter,15,Waipouli,waipouli,22.060684,-159.318512,School_1,NA,3,6,cyanobacteria_spp,18,19,94.73684210526315
 2/28/16,11:45:00,13:30:00,3,21,1 meter,15,Waipouli,waipouli,22.060684,-159.318512,School_1,NA,3,5,cyanobacteria_spp,1,22,4.545454545454546
 2/28/16,11:45:00,13:30:00,3,21,1 meter,15,Waipouli,waipouli,22.060684,-159.318512,School_1,NA,2,1,dasya_spp,1,25,4
-2/28/16,11:45:00,13:30:00,3,21,1 meter,15,Waipouli,waipouli,22.060684,-159.318512,School_1,NA,1,2,snail_dendropoma_gregarium,1,25,4
+2/28/16,11:45:00,13:30:00,3,21,1 meter,15,Waipouli,waipouli,22.060684,-159.318512,School_1,NA,1,2,dendropoma_gregaria,1,25,4
 2/28/16,11:45:00,13:30:00,3,21,1 meter,15,Waipouli,waipouli,22.060684,-159.318512,School_1,NA,1,1,dictyosphaeria_spp,1,25,4
 2/28/16,11:45:00,13:30:00,3,21,1 meter,15,Waipouli,waipouli,22.060684,-159.318512,School_1,NA,1,4,dictyosphaeria_spp,1,17,5.88235294117647
 2/28/16,11:45:00,13:30:00,3,21,1 meter,15,Waipouli,waipouli,22.060684,-159.318512,School_1,NA,3,3,dictyosphaeria_spp,1,21,4.761904761904762
@@ -6849,12 +6849,12 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,5,10,cyanobacteria_spp,1,25,4
 2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,5,12,cyanobacteria_spp,2,24,8.333333333333332
 2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,7,10,cyanobacteria_spp,2,21,9.523809523809524
-2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,1,6,snail_dendropoma_gregarium,1,20,5
-2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,1,10,snail_dendropoma_gregarium,1,21,4.761904761904762
-2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,1,14,snail_dendropoma_gregarium,1,19,5.263157894736842
-2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,2,2,snail_dendropoma_gregarium,1,25,4
-2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,2,4,snail_dendropoma_gregarium,5,25,20
-2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,3,2,snail_dendropoma_gregarium,1,15,6.666666666666667
+2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,1,6,dendropoma_gregaria,1,20,5
+2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,1,10,dendropoma_gregaria,1,21,4.761904761904762
+2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,1,14,dendropoma_gregaria,1,19,5.263157894736842
+2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,2,2,dendropoma_gregaria,1,25,4
+2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,2,4,dendropoma_gregaria,5,25,20
+2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,3,2,dendropoma_gregaria,1,15,6.666666666666667
 2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,1,8,dictyosphaeria_spp,2,8,25
 2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,1,10,dictyosphaeria_spp,2,21,9.523809523809524
 2/20/16,8:44:00,10:20:00,7,25,1 meter,13,Sand Island,sand_island,21.3002,-157.882599,School_1,NA,1,12,dictyosphaeria_spp,2,16,12.5
@@ -7013,7 +7013,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 6/25/2017,9:00:00,11:00:00,3,33,3 meters,12,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,1,6,cyanobacteria_spp,1,25,4
 6/25/2017,9:00:00,11:00:00,3,33,3 meters,12,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,1,12,cyanobacteria_spp,1,25,4
 6/25/2017,9:00:00,11:00:00,3,33,3 meters,12,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,1,30,cyanobacteria_spp,5,25,20
-6/25/2017,9:00:00,11:00:00,3,33,3 meters,12,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,1,30,snail_dendropoma_gregarium,6,25,24
+6/25/2017,9:00:00,11:00:00,3,33,3 meters,12,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,1,30,dendropoma_gregaria,6,25,24
 6/25/2017,9:00:00,11:00:00,3,33,3 meters,12,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,1,3,dictyota_spp,3,25,12
 6/25/2017,9:00:00,11:00:00,3,33,3 meters,12,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,1,6,dictyota_spp,1,25,4
 6/25/2017,9:00:00,11:00:00,3,33,3 meters,12,Maili Beach,maili_beach,21.4104,-158.177704,School_1,NA,1,9,dictyota_spp,1,27,3.7037037037037033
@@ -7207,10 +7207,10 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,9,cyanobacteria_spp,1,23,4.3478260869565215
 6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,12,cyanobacteria_spp,1,25,4
 6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,22,cyanobacteria_spp,1,25,4
-6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,4,snail_dendropoma_gregarium,1,25,4
-6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,21,snail_dendropoma_gregarium,1,14,7.142857142857142
-6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,6,snail_dendropoma_gregarium,2,25,8
-6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,22,snail_dendropoma_gregarium,2,25,8
+6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,4,dendropoma_gregaria,1,25,4
+6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,21,dendropoma_gregaria,1,14,7.142857142857142
+6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,6,dendropoma_gregaria,2,25,8
+6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,4,22,dendropoma_gregaria,2,25,8
 6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,2,9,dictyosphaeria_spp,1,25,4
 6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,9,dictyosphaeria_spp,5,23,21.73913043478261
 6/24/2017,8:20:00,11:00:00,4,24,3 meters,8,Barbers Point,barbers_point,21.295799,-158.103699,School_1,NA,3,12,dictyosphaeria_spp,1,25,4
@@ -7454,8 +7454,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 6/22/2017,7:40:00,9:30:00,3,20,2 meters,10,Sandy Beach,sandy_beach,21.2882,-157.667999,School_1,NA,3,8,cyanobacteria_spp,5,25,20
 6/22/2017,7:40:00,9:30:00,3,20,2 meters,10,Sandy Beach,sandy_beach,21.2882,-157.667999,School_1,NA,3,10,cyanobacteria_spp,1,25,4
 6/22/2017,7:40:00,9:30:00,3,20,2 meters,10,Sandy Beach,sandy_beach,21.2882,-157.667999,School_1,NA,3,12,cyanobacteria_spp,1,23,4.3478260869565215
-6/22/2017,7:40:00,9:30:00,3,20,2 meters,10,Sandy Beach,sandy_beach,21.2882,-157.667999,School_1,NA,2,12,snail_dendropoma_gregarium,3,25,12
-6/22/2017,7:40:00,9:30:00,3,20,2 meters,10,Sandy Beach,sandy_beach,21.2882,-157.667999,School_1,NA,2,16,snail_dendropoma_gregarium,1,25,4
+6/22/2017,7:40:00,9:30:00,3,20,2 meters,10,Sandy Beach,sandy_beach,21.2882,-157.667999,School_1,NA,2,12,dendropoma_gregaria,3,25,12
+6/22/2017,7:40:00,9:30:00,3,20,2 meters,10,Sandy Beach,sandy_beach,21.2882,-157.667999,School_1,NA,2,16,dendropoma_gregaria,1,25,4
 6/22/2017,7:40:00,9:30:00,3,20,2 meters,10,Sandy Beach,sandy_beach,21.2882,-157.667999,School_1,NA,1,8,dictyota_spp,2,25,8
 6/22/2017,7:40:00,9:30:00,3,20,2 meters,10,Sandy Beach,sandy_beach,21.2882,-157.667999,School_1,NA,1,10,dictyota_spp,1,25,4
 6/22/2017,7:40:00,9:30:00,3,20,2 meters,10,Sandy Beach,sandy_beach,21.2882,-157.667999,School_1,NA,1,12,dictyota_spp,1,25,4
@@ -7694,8 +7694,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/12/2017,11:00:00,12:15:00,4,20,2 meters,10,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,1,10,cyanobacteria_spp,8,24,33.33333333333333
 5/12/2017,11:00:00,12:15:00,4,20,2 meters,10,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,1,16,cyanobacteria_spp,2,25,8
 5/12/2017,11:00:00,12:15:00,4,20,2 meters,10,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,3,4,cyanobacteria_spp,1,5,20
-5/12/2017,11:00:00,12:15:00,4,20,2 meters,10,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,3,8,snail_dendropoma_gregarium,4,24,16.666666666666664
-5/12/2017,11:00:00,12:15:00,4,20,2 meters,10,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,3,10,snail_dendropoma_gregarium,3,25,12
+5/12/2017,11:00:00,12:15:00,4,20,2 meters,10,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,3,8,dendropoma_gregaria,4,24,16.666666666666664
+5/12/2017,11:00:00,12:15:00,4,20,2 meters,10,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,3,10,dendropoma_gregaria,3,25,12
 5/12/2017,11:00:00,12:15:00,4,20,2 meters,10,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,3,14,echinometra_mathaei,1,21,4.761904761904762
 5/12/2017,11:00:00,12:15:00,4,20,2 meters,10,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,4,14,echinometra_mathaei,1,20,5
 5/12/2017,11:00:00,12:15:00,4,20,2 meters,10,Sand Island,sand_island,21.3002,-157.882599,School_9,NA,2,5,lyngbya_majuscula,1,22,4.545454545454546
@@ -7785,7 +7785,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/11/2017,9:15:00,11:00:00,6,11,1 meter,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_13,NA,4,2,codium_spp,4,9,44.44444444444444
 5/11/2017,9:15:00,11:00:00,6,11,1 meter,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_13,NA,5,8,crustose_coralline_algae,1,19,5.263157894736842
 5/11/2017,9:15:00,11:00:00,6,11,1 meter,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_13,NA,2,0,dasya_spp,1,16,6.25
-5/11/2017,9:15:00,11:00:00,6,11,1 meter,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_13,NA,3,2,snail_dendropoma_gregarium,1,21,4.761904761904762
+5/11/2017,9:15:00,11:00:00,6,11,1 meter,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_13,NA,3,2,dendropoma_gregaria,1,21,4.761904761904762
 5/11/2017,9:15:00,11:00:00,6,11,1 meter,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_13,NA,2,2,dictyosphaeria_spp,1,23,4.3478260869565215
 5/11/2017,9:15:00,11:00:00,6,11,1 meter,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_13,NA,2,4,dictyosphaeria_spp,2,25,8
 5/11/2017,9:15:00,11:00:00,6,11,1 meter,5,Ewa Beach,ewa_beach,21.310612,-158.00441,School_13,NA,5,0,dictyosphaeria_spp,1,16,6.25
@@ -9400,7 +9400,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/13/2017,9:40:00,11:29:00,4,60,3 meters,10,Hilo Yacht Club,hilo_yacht_club,19.737894,-155.034058,School_31,NA,3,8,crustose_coralline_algae,6,13,46.15384615384615
 4/13/2017,9:40:00,11:29:00,4,60,3 meters,10,Hilo Yacht Club,hilo_yacht_club,19.737894,-155.034058,School_31,NA,2,12,cyanobacteria_spp,10,24,41.66666666666667
 4/13/2017,9:40:00,11:29:00,4,60,3 meters,10,Hilo Yacht Club,hilo_yacht_club,19.737894,-155.034058,School_31,NA,2,14,cyanobacteria_spp,11,22,50
-4/13/2017,9:40:00,11:29:00,4,60,3 meters,10,Hilo Yacht Club,hilo_yacht_club,19.737894,-155.034058,School_31,NA,3,2,snail_dendropoma_gregarium,3,26,11.538461538461538
+4/13/2017,9:40:00,11:29:00,4,60,3 meters,10,Hilo Yacht Club,hilo_yacht_club,19.737894,-155.034058,School_31,NA,3,2,dendropoma_gregaria,3,26,11.538461538461538
 4/13/2017,9:40:00,11:29:00,4,60,3 meters,10,Hilo Yacht Club,hilo_yacht_club,19.737894,-155.034058,School_31,NA,2,12,galaxaura_spp,1,24,4.166666666666666
 4/13/2017,9:40:00,11:29:00,4,60,3 meters,10,Hilo Yacht Club,hilo_yacht_club,19.737894,-155.034058,School_31,NA,2,12,gracilaria_salicornia,5,24,20.833333333333336
 4/13/2017,9:40:00,11:29:00,4,60,3 meters,10,Hilo Yacht Club,hilo_yacht_club,19.737894,-155.034058,School_31,NA,1,4,nerita_picea,8,24,33.33333333333333
@@ -10182,7 +10182,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/1/2017,11:18:00,12:06:00,3,25,1 meter,11,Napili Bay,napili_bay,20.99424,-156.668259,School_1,NA,3,5,crustose_coralline_algae,12,12,100
 4/1/2017,11:18:00,12:06:00,3,25,1 meter,11,Napili Bay,napili_bay,20.99424,-156.668259,School_1,NA,3,7,crustose_coralline_algae,14,25,56.00000000000001
 4/1/2017,11:18:00,12:06:00,3,25,1 meter,11,Napili Bay,napili_bay,20.99424,-156.668259,School_1,NA,3,25,crustose_coralline_algae,2,4,50
-4/1/2017,11:18:00,12:06:00,3,25,1 meter,11,Napili Bay,napili_bay,20.99424,-156.668259,School_1,NA,2,4,snail_dendropoma_gregarium,5,25,20
+4/1/2017,11:18:00,12:06:00,3,25,1 meter,11,Napili Bay,napili_bay,20.99424,-156.668259,School_1,NA,2,4,dendropoma_gregaria,5,25,20
 4/1/2017,11:18:00,12:06:00,3,25,1 meter,11,Napili Bay,napili_bay,20.99424,-156.668259,School_1,NA,1,2,echinometra_mathaei,2,20,10
 4/1/2017,11:18:00,12:06:00,3,25,1 meter,11,Napili Bay,napili_bay,20.99424,-156.668259,School_1,NA,1,4,echinometra_mathaei,6,17,35.294117647058826
 4/1/2017,11:18:00,12:06:00,3,25,1 meter,11,Napili Bay,napili_bay,20.99424,-156.668259,School_1,NA,1,6,echinometra_mathaei,1,3,33.33333333333333
@@ -10565,12 +10565,12 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,2,9,cyanobacteria_spp,2,19,10.526315789473683
 3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,6,5,cyanobacteria_spp,1,23,4.3478260869565215
 3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,6,7,cyanobacteria_spp,1,26,3.8461538461538463
-3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,1,5,snail_dendropoma_gregarium,6,25,24
-3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,3,7,snail_dendropoma_gregarium,1,24,4.166666666666666
-3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,4,5,snail_dendropoma_gregarium,4,22,18.181818181818183
-3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,4,7,snail_dendropoma_gregarium,6,25,24
-3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,6,7,snail_dendropoma_gregarium,5,26,19.230769230769234
-3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,6,9,snail_dendropoma_gregarium,8,31,25.806451612903224
+3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,1,5,dendropoma_gregaria,6,25,24
+3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,3,7,dendropoma_gregaria,1,24,4.166666666666666
+3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,4,5,dendropoma_gregaria,4,22,18.181818181818183
+3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,4,7,dendropoma_gregaria,6,25,24
+3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,6,7,dendropoma_gregaria,5,26,19.230769230769234
+3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,6,9,dendropoma_gregaria,8,31,25.806451612903224
 3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,2,3,dictyosphaeria_spp,1,16,6.25
 3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,2,5,dictyosphaeria_spp,3,22,13.636363636363635
 3/10/2017,9:15:00,10:45:00,7,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,2,7,dictyosphaeria_spp,3,21,14.285714285714285
@@ -11212,11 +11212,11 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,7,0,cyanobacteria_spp,3,16,18.75
 2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,7,6,cyanobacteria_spp,1,22,4.545454545454546
 2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,7,8,cyanobacteria_spp,6,24,25
-2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,2,6,snail_dendropoma_gregarium,1,24,4.166666666666666
-2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,5,2,snail_dendropoma_gregarium,1,20,5
-2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,5,4,snail_dendropoma_gregarium,1,26,3.8461538461538463
-2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,8,7,snail_dendropoma_gregarium,1,19,5.263157894736842
-2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,9,11,snail_dendropoma_gregarium,2,20,10
+2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,2,6,dendropoma_gregaria,1,24,4.166666666666666
+2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,5,2,dendropoma_gregaria,1,20,5
+2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,5,4,dendropoma_gregaria,1,26,3.8461538461538463
+2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,8,7,dendropoma_gregaria,1,19,5.263157894736842
+2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,9,11,dendropoma_gregaria,2,20,10
 2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,2,6,dictyosphaeria_cavernosa,1,24,4.166666666666666
 2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,2,10,dictyosphaeria_cavernosa,4,18,22.22222222222222
 2/25/2017,9:55:00,11:30:00,9,14,1/2 meter,8,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,9,3,dictyosphaeria_cavernosa,1,25,4
@@ -11501,17 +11501,17 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,14,cyanobacteria_spp,5,15,33.33333333333333
 2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,2,cyanobacteria_spp,9,23,39.130434782608695
 2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,7,cyanobacteria_spp,4,15,26.666666666666668
-2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,10,snail_dendropoma_gregarium,1,22,4.545454545454546
-2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,12,snail_dendropoma_gregarium,1,25,4
-2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,2,snail_dendropoma_gregarium,2,23,8.695652173913043
-2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,4,snail_dendropoma_gregarium,3,23,13.043478260869565
-2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,10,snail_dendropoma_gregarium,4,22,18.181818181818183
-2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,12,snail_dendropoma_gregarium,2,18,11.11111111111111
-2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,5,5,snail_dendropoma_gregarium,1,21,4.761904761904762
-2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,5,13,snail_dendropoma_gregarium,4,12,33.33333333333333
-2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,3,snail_dendropoma_gregarium,1,24,4.166666666666666
-2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,7,snail_dendropoma_gregarium,3,15,20
-2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,9,snail_dendropoma_gregarium,1,4,25
+2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,10,dendropoma_gregaria,1,22,4.545454545454546
+2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,12,dendropoma_gregaria,1,25,4
+2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,2,dendropoma_gregaria,2,23,8.695652173913043
+2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,4,dendropoma_gregaria,3,23,13.043478260869565
+2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,10,dendropoma_gregaria,4,22,18.181818181818183
+2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,12,dendropoma_gregaria,2,18,11.11111111111111
+2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,5,5,dendropoma_gregaria,1,21,4.761904761904762
+2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,5,13,dendropoma_gregaria,4,12,33.33333333333333
+2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,3,dendropoma_gregaria,1,24,4.166666666666666
+2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,7,dendropoma_gregaria,3,15,20
+2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,7,9,dendropoma_gregaria,1,4,25
 2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,4,dictyosphaeria_spp,2,26,7.6923076923076925
 2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,10,dictyosphaeria_spp,1,22,4.545454545454546
 2/12/2017,10:45:00,11:45:00,9,12,1/2 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,12,dictyosphaeria_spp,1,18,5.555555555555555
@@ -12012,10 +12012,10 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,2,2,crab_spp,1,25,4
 5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,1,0,crustose_coralline_algae,1,21,4.761904761904762
 5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,1,4,crustose_coralline_algae,7,16,43.75
-5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,4,0,snail_dendropoma_gregarium,4,9,44.44444444444444
-5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,4,2,snail_dendropoma_gregarium,1,22,4.545454545454546
-5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,4,4,snail_dendropoma_gregarium,3,22,13.636363636363635
-5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,4,6,snail_dendropoma_gregarium,6,25,24
+5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,4,0,dendropoma_gregaria,4,9,44.44444444444444
+5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,4,2,dendropoma_gregaria,1,22,4.545454545454546
+5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,4,4,dendropoma_gregaria,3,22,13.636363636363635
+5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,4,6,dendropoma_gregaria,6,25,24
 5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,2,0,dictyosphaeria_versluysii,1,25,4
 5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,3,2,dictyosphaeria_versluysii,1,25,4
 5/18/2018,10:15:00,11:13:00,5,10,1/2 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_11,NA,5,6,dictyosphaeria_versluysii,1,25,4
@@ -12373,9 +12373,9 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/16/2018,9:00:00,10:00:00,7,20,1 meter,4,Hilo Yacht Club,hilo_yacht_club,19.737894,-155.034058,School_31,NA,2,10,ulva_spp,1,6,16.666666666666664
 5/16/2018,9:00:00,10:00:00,7,20,1 meter,4,Hilo Yacht Club,hilo_yacht_club,19.737894,-155.034058,School_31,NA,1,10,unknown_species,1,23,4.3478260869565215
 5/15/2018,9:11:00,9:48:00,6,30,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,2,0,bornetella_sphaerica,1,22,4.545454545454546
-5/15/2018,9:11:00,9:48:00,6,30,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,2,5,snail_dendropoma_gregarium,3,20,15
-5/15/2018,9:11:00,9:48:00,6,30,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,4,10,snail_dendropoma_gregarium,24,25,96
-5/15/2018,9:11:00,9:48:00,6,30,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,4,20,snail_dendropoma_gregarium,15,25,60
+5/15/2018,9:11:00,9:48:00,6,30,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,2,5,dendropoma_gregaria,3,20,15
+5/15/2018,9:11:00,9:48:00,6,30,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,4,10,dendropoma_gregaria,24,25,96
+5/15/2018,9:11:00,9:48:00,6,30,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,4,20,dendropoma_gregaria,15,25,60
 5/15/2018,9:11:00,9:48:00,6,30,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,4,5,echinometra_sp,1,1,100
 5/15/2018,9:11:00,9:48:00,6,30,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,4,0,hermit_crab,1,25,4
 5/15/2018,9:11:00,9:48:00,6,30,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,4,10,leptolyngbya_crosbyana,1,25,4
@@ -12419,7 +12419,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/14/2018,9:11:00,10:04:00,6,26,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,6,5,crustose_coralline_algae,2,25,8
 5/14/2018,9:11:00,10:04:00,6,26,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,6,10,crustose_coralline_algae,1,16,6.25
 5/14/2018,9:11:00,10:04:00,6,26,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,6,20,crustose_coralline_algae,3,25,12
-5/14/2018,9:11:00,10:04:00,6,26,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,2,5,snail_dendropoma_gregarium,8,25,32
+5/14/2018,9:11:00,10:04:00,6,26,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,2,5,dendropoma_gregaria,8,25,32
 5/14/2018,9:11:00,10:04:00,6,26,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,5,5,dictyosphaeria_spp,2,25,8
 5/14/2018,9:11:00,10:04:00,6,26,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,1,10,echinometra_sp,1,19,5.263157894736842
 5/14/2018,9:11:00,10:04:00,6,26,1 meter,5,Sand Island,sand_island,21.3002,-157.882599,School_15,NA,1,10,neomeris_spp,1,19,5.263157894736842
@@ -12511,8 +12511,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/11/2018,9:00:00,9:50:00,5,16,1 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,4,10,crustose_coralline_algae,1,8,12.5
 5/11/2018,9:00:00,9:50:00,5,16,1 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,5,2,crustose_coralline_algae,1,25,4
 5/11/2018,9:00:00,9:50:00,5,16,1 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,5,4,crustose_coralline_algae,2,15,13.333333333333334
-5/11/2018,9:00:00,9:50:00,5,16,1 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,1,6,snail_dendropoma_gregarium,5,19,26.31578947368421
-5/11/2018,9:00:00,9:50:00,5,16,1 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,1,8,snail_dendropoma_gregarium,7,15,46.666666666666664
+5/11/2018,9:00:00,9:50:00,5,16,1 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,1,6,dendropoma_gregaria,5,19,26.31578947368421
+5/11/2018,9:00:00,9:50:00,5,16,1 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,1,8,dendropoma_gregaria,7,15,46.666666666666664
 5/11/2018,9:00:00,9:50:00,5,16,1 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,4,2,dictyosphaeria_spp,1,25,4
 5/11/2018,9:00:00,9:50:00,5,16,1 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,4,0,dictyota_spp,2,25,8
 5/11/2018,9:00:00,9:50:00,5,16,1 meter,7,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,4,4,dictyota_spp,1,25,4
@@ -12586,8 +12586,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/10/2018,8:40:00,9:40:00,5,16,2 meters,8,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,4,10,actinopyga_varians,1,1,100
 5/10/2018,8:40:00,9:40:00,5,16,2 meters,8,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,5,2,cladophora_or_cladophoropsis_spp,6,25,24
 5/10/2018,8:40:00,9:40:00,5,16,2 meters,8,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,4,6,cyanobacteria_spp,5,19,26.31578947368421
-5/10/2018,8:40:00,9:40:00,5,16,2 meters,8,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,2,10,snail_dendropoma_gregarium,5,9,55.55555555555556
-5/10/2018,8:40:00,9:40:00,5,16,2 meters,8,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,4,6,snail_dendropoma_gregarium,3,19,15.789473684210526
+5/10/2018,8:40:00,9:40:00,5,16,2 meters,8,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,2,10,dendropoma_gregaria,5,9,55.55555555555556
+5/10/2018,8:40:00,9:40:00,5,16,2 meters,8,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,4,6,dendropoma_gregaria,3,19,15.789473684210526
 5/10/2018,8:40:00,9:40:00,5,16,2 meters,8,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,4,2,dictyota_spp,13,24,54.166666666666664
 5/10/2018,8:40:00,9:40:00,5,16,2 meters,8,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,4,0,hypnea_spp,6,14,42.857142857142854
 5/10/2018,8:40:00,9:40:00,5,16,2 meters,8,Diamond Head,diamond_head,21.25544,-157.810303,School_9,NA,2,2,laurencia_spp,8,19,42.10526315789473
@@ -12905,12 +12905,12 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,4,4,coelothrix_irregularis,1,19,5.263157894736842
 4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,4,6,coelothrix_irregularis,1,10,10
 4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,5,8,crustose_coralline_algae,4,14,28.57142857142857
-4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,1,8,snail_dendropoma_gregarium,19,19,100
-4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,2,8,snail_dendropoma_gregarium,7,8,87.5
-4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,3,2,snail_dendropoma_gregarium,4,25,16
-4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,3,4,snail_dendropoma_gregarium,1,24,4.166666666666666
-4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,3,6,snail_dendropoma_gregarium,2,22,9.090909090909092
-4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,3,8,snail_dendropoma_gregarium,13,25,52
+4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,1,8,dendropoma_gregaria,19,19,100
+4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,2,8,dendropoma_gregaria,7,8,87.5
+4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,3,2,dendropoma_gregaria,4,25,16
+4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,3,4,dendropoma_gregaria,1,24,4.166666666666666
+4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,3,6,dendropoma_gregaria,2,22,9.090909090909092
+4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,3,8,dendropoma_gregaria,13,25,52
 4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,1,4,dictyosphaeria_spp,2,25,8
 4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,1,2,dictyota_spp,5,25,20
 4/24/2018,9:15:00,9:50:00,7,12,1 meter,5,Diamond Head,diamond_head,21.25544,-157.810303,School_41,NA,5,2,dictyota_spp,5,22,22.727272727272727
@@ -13415,13 +13415,13 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,5,7,cyanobacteria_spp,2,10,20
 3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,7,5,cyanobacteria_spp,18,25,72
 3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,8,9,cyanobacteria_spp,15,15,100
-3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,1,3,snail_dendropoma_gregarium,19,20,95
-3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,3,7,snail_dendropoma_gregarium,4,18,22.22222222222222
-3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,3,9,snail_dendropoma_gregarium,3,14,21.428571428571427
-3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,6,1,snail_dendropoma_gregarium,2,3,66.66666666666666
-3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,9,1,snail_dendropoma_gregarium,10,25,40
-3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,9,5,snail_dendropoma_gregarium,2,24,8.333333333333332
-3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,9,7,snail_dendropoma_gregarium,2,16,12.5
+3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,1,3,dendropoma_gregaria,19,20,95
+3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,3,7,dendropoma_gregaria,4,18,22.22222222222222
+3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,3,9,dendropoma_gregaria,3,14,21.428571428571427
+3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,6,1,dendropoma_gregaria,2,3,66.66666666666666
+3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,9,1,dendropoma_gregaria,10,25,40
+3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,9,5,dendropoma_gregaria,2,24,8.333333333333332
+3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,9,7,dendropoma_gregaria,2,16,12.5
 3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,2,3,dictyosphaeria_spp,7,23,30.434782608695656
 3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,2,9,dictyosphaeria_spp,5,25,20
 3/1/2018,9:00:00,10:50:00,10,10,1/2 meter,5,Barbers Point,barbers_point,21.295799,-158.103699,School_38,NA,3,1,dictyosphaeria_spp,1,22,4.545454545454546
@@ -13589,10 +13589,10 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,4,crustose_coralline_algae,5,16,31.25
 2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,5,crustose_coralline_algae,1,20,5
 2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,6,crustose_coralline_algae,1,24,4.166666666666666
-2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,1,snail_dendropoma_gregarium,1,25,4
-2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,2,5,snail_dendropoma_gregarium,1,18,5.555555555555555
-2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,7,snail_dendropoma_gregarium,2,23,8.695652173913043
-2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,10,snail_dendropoma_gregarium,2,7,28.57142857142857
+2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,1,dendropoma_gregaria,1,25,4
+2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,2,5,dendropoma_gregaria,1,18,5.555555555555555
+2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,7,dendropoma_gregaria,2,23,8.695652173913043
+2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,10,dendropoma_gregaria,2,7,28.57142857142857
 2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,2,1,dictyosphaeria_cavernosa,3,16,18.75
 2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,2,5,dictyosphaeria_cavernosa,1,18,5.555555555555555
 2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,2,0,dictyosphaeria_spp,1,16,6.25
@@ -13638,9 +13638,9 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,5,griffithsia_spp,2,20,10
 2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,1,halimeda_discoidea,1,25,4
 2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,3,halimeda_discoidea,1,24,4.166666666666666
-2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,3,haminoea_cymbalum_green_snail,1,24,4.166666666666666
-2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,4,haminoea_cymbalum_green_snail,1,16,6.25
-2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,5,haminoea_cymbalum_green_snail,1,20,5
+2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,3,haminoea_cymbalum,1,24,4.166666666666666
+2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,4,haminoea_cymbalum,1,16,6.25
+2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,3,5,haminoea_cymbalum,1,20,5
 2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,1,1,holothuria_atra,1,25,4
 2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,2,6,hypnea_cervicornis,2,16,12.5
 2/17/2018,11:58:00,13:39:00,3,11,1 meter,11,Ewa Beach,ewa_beach,21.310612,-158.00441,School_1,NA,2,7,hypnea_cervicornis,2,16,12.5
@@ -13751,10 +13751,10 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,3,crustose_coralline_algae,2,24,8.333333333333332
 2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,4,crustose_coralline_algae,1,24,4.166666666666666
 2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,8,crustose_coralline_algae,1,4,25
-2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,0,snail_dendropoma_gregarium,1,26,3.8461538461538463
-2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,4,snail_dendropoma_gregarium,2,21,9.523809523809524
-2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,5,snail_dendropoma_gregarium,4,24,16.666666666666664
-2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,5,snail_dendropoma_gregarium,1,25,4
+2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,0,dendropoma_gregaria,1,26,3.8461538461538463
+2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,4,dendropoma_gregaria,2,21,9.523809523809524
+2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,5,dendropoma_gregaria,4,24,16.666666666666664
+2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,3,5,dendropoma_gregaria,1,25,4
 2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,4,dictyosphaeria_spp,1,21,4.761904761904762
 2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,1,10,dictyosphaeria_spp,1,6,16.666666666666664
 2/3/2018,11:45:00,13:30:00,3,13,1 meter,13,Diamond Head,diamond_head,21.25544,-157.810303,School_1,NA,2,6,dictyosphaeria_spp,1,22,4.545454545454546
@@ -13969,7 +13969,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/20/2019,9:45:00,11:15:00,8,12,2 meters,8,Kaupo,kaupo,19.736111,-155.030838,Ka Umeke Kaeo PCS,NA,6,0,crustose_coralline_algae,8,79,10.126582278481013
 5/20/2019,9:45:00,11:15:00,8,12,2 meters,8,Kaupo,kaupo,19.736111,-155.030838,Ka Umeke Kaeo PCS,NA,6,0,crustose_coralline_algae,1,79,1.2658227848101267
 5/20/2019,9:45:00,11:15:00,8,12,2 meters,8,Kaupo,kaupo,19.736111,-155.030838,Ka Umeke Kaeo PCS,NA,6,0,crustose_coralline_algae,5,79,6.329113924050633
-5/20/2019,9:45:00,11:15:00,8,12,2 meters,8,Kaupo,kaupo,19.736111,-155.030838,Ka Umeke Kaeo PCS,NA,5,0,snail_dendropoma_gregarium,2,71,2.8169014084507045
+5/20/2019,9:45:00,11:15:00,8,12,2 meters,8,Kaupo,kaupo,19.736111,-155.030838,Ka Umeke Kaeo PCS,NA,5,0,dendropoma_gregaria,2,71,2.8169014084507045
 5/20/2019,9:45:00,11:15:00,8,12,2 meters,8,Kaupo,kaupo,19.736111,-155.030838,Ka Umeke Kaeo PCS,NA,1,2,dictyosphaeria_spp,4,19,21.052631578947366
 5/20/2019,9:45:00,11:15:00,8,12,2 meters,8,Kaupo,kaupo,19.736111,-155.030838,Ka Umeke Kaeo PCS,NA,1,7,dictyosphaeria_spp,1,19,5.263157894736842
 5/20/2019,9:45:00,11:15:00,8,12,2 meters,8,Kaupo,kaupo,19.736111,-155.030838,Ka Umeke Kaeo PCS,NA,1,0,gracilaria_salicornia,2,23,8.695652173913043
@@ -14298,13 +14298,13 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,3,15,crustose_coralline_algae,3,25,12
 5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,3,10,crustose_coralline_algae,15,24,62.5
 5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,3,5,crustose_coralline_algae,18,25,72
-5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,2,6,snail_dendropoma_gregarium,15,24,62.5
-5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,2,11,snail_dendropoma_gregarium,4,13,30.76923076923077
-5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,2,16,snail_dendropoma_gregarium,7,11,63.63636363636363
-5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,2,0,snail_dendropoma_gregarium,5,17,29.411764705882355
-5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,3,25,snail_dendropoma_gregarium,2,19,10.526315789473683
-5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,3,20,snail_dendropoma_gregarium,6,25,24
-5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,5,0,snail_dendropoma_gregarium,20,20,100
+5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,2,6,dendropoma_gregaria,15,24,62.5
+5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,2,11,dendropoma_gregaria,4,13,30.76923076923077
+5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,2,16,dendropoma_gregaria,7,11,63.63636363636363
+5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,2,0,dendropoma_gregaria,5,17,29.411764705882355
+5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,3,25,dendropoma_gregaria,2,19,10.526315789473683
+5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,3,20,dendropoma_gregaria,6,25,24
+5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,5,0,dendropoma_gregaria,20,20,100
 5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,4,30,dictyopteris_spp,1,28,3.571428571428571
 5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,5,5,dictyosphaeria_spp,7,25,28.000000000000004
 5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,1,0,dictyota_spp,1,20,5
@@ -14382,7 +14382,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,5,10,turf_spp,25,25,100
 5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,5,15,turf_spp,24,25,96
 5/6/2019,9:45:00,11:30:00,5,20,1/4 meter,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,5,20,turf_spp,10,25,40
-5/3/2019,9:00:00,12:00:00,6,10,2 meters,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,1,4,snail_dendropoma_gregarium,5,20,25
+5/3/2019,9:00:00,12:00:00,6,10,2 meters,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,1,4,dendropoma_gregaria,5,20,25
 5/3/2019,9:00:00,12:00:00,6,10,2 meters,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,1,4,diadema_paucispinum,5,20,25
 5/3/2019,9:00:00,12:00:00,6,10,2 meters,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,1,4,laurencia_spp,2,20,10
 5/3/2019,9:00:00,12:00:00,6,10,2 meters,5,Maili Beach,maili_beach,21.4104,-158.177704,UH Manoa,NA,1,4,turf_spp,7,20,35
@@ -15619,11 +15619,11 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/16/2019,9:20:00,9:55:00,5,20,1 meter,5,Ewa Beach,ewa_beach,21.310612,-158.00441,Waipahu High School,NA,5,15,turf_spp,5,25,20
 4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,4,2,crustose_coralline_algae,5,15,33.33333333333333
 4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,4,4,crustose_coralline_algae,2,10,20
-4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,1,0,snail_dendropoma_gregarium,5,5,100
-4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,1,2,snail_dendropoma_gregarium,4,4,100
-4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,1,4,snail_dendropoma_gregarium,10,15,66.66666666666666
-4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,1,6,snail_dendropoma_gregarium,10,10,100
-4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,1,8,snail_dendropoma_gregarium,4,4,100
+4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,1,0,dendropoma_gregaria,5,5,100
+4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,1,2,dendropoma_gregaria,4,4,100
+4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,1,4,dendropoma_gregaria,10,15,66.66666666666666
+4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,1,6,dendropoma_gregaria,10,10,100
+4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,1,8,dendropoma_gregaria,4,4,100
 4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,1,4,littoraria_pintado,5,15,33.33333333333333
 4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,4,0,littoraria_pintado,5,15,33.33333333333333
 4/12/2019,10:00:00,12:00:00,5,15,1/2 meter,5,Lanikai Point,lanikai_point,21.3962,-157.720306,UH Manoa,NA,4,2,littoraria_pintado,5,15,33.33333333333333
@@ -16128,7 +16128,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 4/2/2019,8:45:00,11:15:00,7,10,1/2 meter,5,Baby Makapuu,baby_makapuu,21.316488,-157.664261,UH Manoa,NA,6,2,crustose_coralline_algae,6,6,100
 4/2/2019,8:45:00,11:15:00,7,10,1/2 meter,5,Baby Makapuu,baby_makapuu,21.316488,-157.664261,UH Manoa,NA,6,4,crustose_coralline_algae,2,2,100
 4/2/2019,8:45:00,11:15:00,7,10,1/2 meter,5,Baby Makapuu,baby_makapuu,21.316488,-157.664261,UH Manoa,NA,6,8,crustose_coralline_algae,1,1,100
-4/2/2019,8:45:00,11:15:00,7,10,1/2 meter,5,Baby Makapuu,baby_makapuu,21.316488,-157.664261,UH Manoa,NA,2,2,snail_dendropoma_gregarium,3,17,17.647058823529413
+4/2/2019,8:45:00,11:15:00,7,10,1/2 meter,5,Baby Makapuu,baby_makapuu,21.316488,-157.664261,UH Manoa,NA,2,2,dendropoma_gregaria,3,17,17.647058823529413
 4/2/2019,8:45:00,11:15:00,7,10,1/2 meter,5,Baby Makapuu,baby_makapuu,21.316488,-157.664261,UH Manoa,NA,2,2,dictyosphaeria_cavernosa,3,17,17.647058823529413
 4/2/2019,8:45:00,11:15:00,7,10,1/2 meter,5,Baby Makapuu,baby_makapuu,21.316488,-157.664261,UH Manoa,NA,4,0,dictyota_sandvicensis,1,16,6.25
 4/2/2019,8:45:00,11:15:00,7,10,1/2 meter,5,Baby Makapuu,baby_makapuu,21.316488,-157.664261,UH Manoa,NA,2,0,gracilaria_salicornia,1,22,4.545454545454546
@@ -16267,8 +16267,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 3/12/2019,13:30:00,16:00:00,7,8,1 meter,25,Diamond Head,diamond_head,21.25544,-157.810303,UH Manoa,NA,6,6,coral_spp,5,25,20
 3/12/2019,13:30:00,16:00:00,7,8,1 meter,25,Diamond Head,diamond_head,21.25544,-157.810303,UH Manoa,NA,5,6,crustose_coralline_algae,4,25,16
 3/12/2019,13:30:00,16:00:00,7,8,1 meter,25,Diamond Head,diamond_head,21.25544,-157.810303,UH Manoa,NA,6,8,crustose_coralline_algae,1,25,4
-3/12/2019,13:30:00,16:00:00,7,8,1 meter,25,Diamond Head,diamond_head,21.25544,-157.810303,UH Manoa,NA,2,8,snail_dendropoma_gregarium,1,8,12.5
-3/12/2019,13:30:00,16:00:00,7,8,1 meter,25,Diamond Head,diamond_head,21.25544,-157.810303,UH Manoa,NA,7,8,snail_dendropoma_gregarium,23,24,95.83333333333334
+3/12/2019,13:30:00,16:00:00,7,8,1 meter,25,Diamond Head,diamond_head,21.25544,-157.810303,UH Manoa,NA,2,8,dendropoma_gregaria,1,8,12.5
+3/12/2019,13:30:00,16:00:00,7,8,1 meter,25,Diamond Head,diamond_head,21.25544,-157.810303,UH Manoa,NA,7,8,dendropoma_gregaria,23,24,95.83333333333334
 3/12/2019,13:30:00,16:00:00,7,8,1 meter,25,Diamond Head,diamond_head,21.25544,-157.810303,UH Manoa,NA,1,0,dictyosphaeria_spp,3,14,21.428571428571427
 3/12/2019,13:30:00,16:00:00,7,8,1 meter,25,Diamond Head,diamond_head,21.25544,-157.810303,UH Manoa,NA,2,2,dictyosphaeria_spp,3,23,13.043478260869565
 3/12/2019,13:30:00,16:00:00,7,8,1 meter,25,Diamond Head,diamond_head,21.25544,-157.810303,UH Manoa,NA,3,2,dictyosphaeria_spp,1,20,5
@@ -16447,8 +16447,8 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 3/9/2019,10:52:00,11:34:00,5,20,2 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,UH Manoa,NA,5,8,crustose_coralline_algae,7,25,28.000000000000004
 3/9/2019,10:52:00,11:34:00,5,20,2 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,UH Manoa,NA,5,12,crustose_coralline_algae,7,25,28.000000000000004
 3/9/2019,10:52:00,11:34:00,5,20,2 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,UH Manoa,NA,5,16,crustose_coralline_algae,1,22,4.545454545454546
-3/9/2019,10:52:00,11:34:00,5,20,2 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,UH Manoa,NA,5,8,snail_dendropoma_gregarium,1,25,4
-3/9/2019,10:52:00,11:34:00,5,20,2 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,UH Manoa,NA,5,12,snail_dendropoma_gregarium,1,25,4
+3/9/2019,10:52:00,11:34:00,5,20,2 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,UH Manoa,NA,5,8,dendropoma_gregaria,1,25,4
+3/9/2019,10:52:00,11:34:00,5,20,2 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,UH Manoa,NA,5,12,dendropoma_gregaria,1,25,4
 3/9/2019,10:52:00,11:34:00,5,20,2 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,UH Manoa,NA,2,0,dictyosphaeria_spp,3,20,15
 3/9/2019,10:52:00,11:34:00,5,20,2 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,UH Manoa,NA,2,4,dictyosphaeria_spp,2,21,9.523809523809524
 3/9/2019,10:52:00,11:34:00,5,20,2 meters,5,Ewa Beach,ewa_beach,21.310612,-158.00441,UH Manoa,NA,2,8,dictyosphaeria_spp,1,21,4.761904761904762
@@ -16931,7 +16931,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/24/2019,13:15:00,14:15:00,3,13,1 meter,11,Onekahakaha,onekahakaha,19.738602,-155.038879,UH Manoa,NA,3,10,crustose_coralline_algae,1,24,4.166666666666666
 2/24/2019,13:15:00,14:15:00,3,13,1 meter,11,Onekahakaha,onekahakaha,19.738602,-155.038879,UH Manoa,NA,3,8,crustose_coralline_algae,1,24,4.166666666666666
 2/24/2019,13:15:00,14:15:00,3,13,1 meter,11,Onekahakaha,onekahakaha,19.738602,-155.038879,UH Manoa,NA,3,5,crustose_coralline_algae,2,25,8
-2/24/2019,13:15:00,14:15:00,3,13,1 meter,11,Onekahakaha,onekahakaha,19.738602,-155.038879,UH Manoa,NA,1,1,snail_dendropoma_gregarium,1,18,5.555555555555555
+2/24/2019,13:15:00,14:15:00,3,13,1 meter,11,Onekahakaha,onekahakaha,19.738602,-155.038879,UH Manoa,NA,1,1,dendropoma_gregaria,1,18,5.555555555555555
 2/24/2019,13:15:00,14:15:00,3,13,1 meter,11,Onekahakaha,onekahakaha,19.738602,-155.038879,UH Manoa,NA,3,13,diadema_paucispinum,6,23,26.08695652173913
 2/24/2019,13:15:00,14:15:00,3,13,1 meter,11,Onekahakaha,onekahakaha,19.738602,-155.038879,UH Manoa,NA,2,3,echinometra_mathaei,1,1,100
 2/24/2019,13:15:00,14:15:00,3,13,1 meter,11,Onekahakaha,onekahakaha,19.738602,-155.038879,UH Manoa,NA,2,4,echinometra_mathaei,1,25,4
@@ -17236,10 +17236,10 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,6,1,crustose_coralline_algae,2,24,8.333333333333332
 1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,6,2,crustose_coralline_algae,2,26,7.6923076923076925
 1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,6,7,crustose_coralline_algae,2,24,8.333333333333332
-1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,1,4,snail_dendropoma_gregarium,1,23,4.3478260869565215
-1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,1,8,snail_dendropoma_gregarium,11,20,55.00000000000001
-1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,2,5,snail_dendropoma_gregarium,1,25,4
-1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,3,8,snail_dendropoma_gregarium,2,18,11.11111111111111
+1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,1,4,dendropoma_gregaria,1,23,4.3478260869565215
+1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,1,8,dendropoma_gregaria,11,20,55.00000000000001
+1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,2,5,dendropoma_gregaria,1,25,4
+1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,3,8,dendropoma_gregaria,2,18,11.11111111111111
 1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,6,6,dictyosphaeria_spp,1,21,4.761904761904762
 1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,1,2,dictyota_spp,2,24,8.333333333333332
 1/20/2019,9:45:00,10:45:00,6,10,1/2 meter,10,Diamond Head,diamond_head,21.25544,-157.8103,UH Manoa,NA,6,5,dictyota_spp,1,20,5
@@ -17894,12 +17894,12 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,14,padina_sp,14,25,56.00000000000001
 1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,14,sargassum_sp,2,25,8
 1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,14,bare_rock,3,25,12
-1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,avrainvillea_lacerata,4,25,16
-1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,cca,1,25,4
-1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,laurencia_sp,6,25,24
-1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,microdictyon_sp,2,25,8
-1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,padina_sp,11,25,44
-1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,haminoea_cymbalum_green_snail,1,25,4
+1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,avrainvillea_lacerata,4,26,15.384615384615385
+1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,cca,1,26,3.8461538461538463
+1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,laurencia_sp,6,26,23.076923076923077
+1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,microdictyon_sp,2,26,7.6923076923076925
+1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,padina_sp,11,26,42.30769230769231
+1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,haminoea_cymbalum_green_snail,1,26,3.8461538461538463
 1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,10,acanthophora_spicifera,1,25,4
 1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,10,amansia_sp,2,25,8
 1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,10,codium_sp,5,25,20
@@ -18015,11 +18015,11 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,10,padina_sp,5,25,20
 1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,10,turf,15,25,60
 1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,10,bare_rock,5,25,20
-1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,11,padina_sp,2,25,8
-1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,11,turf,4,25,16
-1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,11,snail_dendropoma_gregarium,2,25,8
-1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,11,bare_rock,14,25,56.00000000000001
-1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,11,pebble,3,25,12
+1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,11,padina_sp,2,27,7.4074074074074066
+1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,11,turf,4,27,14.814814814814813
+1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,11,snail_dendropoma_gregarium,2,27,7.4074074074074066
+1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,11,bare_rock,14,27,51.85185185185185
+1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,11,pebble,3,27,11.11111111111111
 1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,12,bare_rock,25,25,100
 1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,13,snail_siphonaria_normalis,1,25,4
 1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,13,bare_rock,24,25,96
@@ -18109,11 +18109,11 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,9,jania_sp,8,25,32
 1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,9,padina_sp,4,25,16
 1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,9,bare_rock,6,25,24
-1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,10,cerramium_sp,3,25,12
-1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,10,jania_sp,4,25,16
-1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,10,lyngbya_sp,6,25,24
-1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,10,snail_dendropoma_gregarium,4,25,16
-1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,10,bare_rock,8,25,32
+1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,10,cerramium_sp,3,29,10.344827586206897
+1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,10,jania_sp,4,29,13.793103448275861
+1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,10,lyngbya_sp,6,29,20.689655172413794
+1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,10,snail_dendropoma_gregarium,4,29,13.793103448275861
+1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,10,bare_rock,8,29,27.586206896551722
 1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,11,jania_sp,4,25,16
 1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,11,lyngbya_sp,8,25,32
 1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,11,sargassum_polyphyllum,4,25,16
@@ -18441,11 +18441,11 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,11,sand,8,25,32
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,11,bare_rock,11,25,44
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,11,pebble,6,25,24
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,12,lyngbya_sp,3,25,12
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,12,snail_dendropoma_gregarium,17,25,68
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,12,bare_rock,5,25,20
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,13,snail_dendropoma_gregarium,10,25,40
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,13,bare_rock,15,25,60
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,12,lyngbya_sp,3,42,7.142857142857142
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,12,snail_dendropoma_gregarium,17,42,40.476190476190474
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,12,bare_rock,5,42,11.904761904761903
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,13,snail_dendropoma_gregarium,10,35,28.57142857142857
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,13,bare_rock,15,35,42.857142857142854
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,2,cca,2,25,8
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,2,chnoospora_sp,1,25,4
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,2,dictyota_sandvicensis,1,25,4
@@ -18491,12 +18491,12 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,9,padina_sp,4,25,16
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,9,turf,4,25,16
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,9,sand,16,25,64
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,10,snail_dendropoma_gregarium,25,25,100
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,11,bornatella_sphaerica,1,25,4
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,11,padina_sp,1,25,4
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,11,turf,2,25,8
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,11,snail_dendropoma_gregarium,1,25,4
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,11,bare_rock,20,25,80
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,10,snail_dendropoma_gregarium,25,50,50
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,11,bornatella_sphaerica,1,26,3.8461538461538463
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,11,padina_sp,1,26,3.8461538461538463
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,11,turf,2,26,7.6923076923076925
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,11,snail_dendropoma_gregarium,1,26,3.8461538461538463
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,11,bare_rock,20,26,76.92307692307693
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,3,cca,6,25,24
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,3,dictyota_sp,10,25,40
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,3,dictyota_sandvicensis,1,25,4
@@ -18543,11 +18543,11 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,9,sand,11,25,44
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,10,padina_sp,1,25,4
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,10,sand,24,25,96
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,11,sargassum_aquifolium,2,25,8
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,11,sargassum_polyphyllum,2,25,8
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,11,snail_dendropoma_gregarium,3,25,12
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,11,sand,15,25,60
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,11,bare_rock,3,25,12
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,11,sargassum_aquifolium,2,28,7.142857142857142
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,11,sargassum_polyphyllum,2,28,7.142857142857142
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,11,snail_dendropoma_gregarium,3,28,10.714285714285714
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,11,sand,15,28,53.57142857142857
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,11,bare_rock,3,28,10.714285714285714
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,12,sand,3,25,12
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,12,bare_rock,15,25,60
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,12,pebble,7,25,28.000000000000004
@@ -18590,9 +18590,9 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,1,10,lyngbya_sp,15,25,60
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,1,10,turf,3,25,12
 2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,1,10,bare_rock,7,25,28.000000000000004
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,1,11,turf,6,25,24
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,1,11,snail_dendropoma_gregarium,2,25,8
-2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,1,11,bare_rock,17,25,68
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,1,11,turf,6,27,22.22222222222222
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,1,11,snail_dendropoma_gregarium,2,27,7.4074074074074066
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,1,11,bare_rock,17,27,62.96296296296296
 2/10/2024,NA,NA,NA,NA,NA,NA,Mamala Bay,mamala_bay,NA,NA,NA,Coder_4,1,0,astronema_sp,2,25,8
 2/10/2024,NA,NA,NA,NA,NA,NA,Mamala Bay,mamala_bay,NA,NA,NA,Coder_4,1,0,bornatella_sphaerica,1,25,4
 2/10/2024,NA,NA,NA,NA,NA,NA,Mamala Bay,mamala_bay,NA,NA,NA,Coder_4,1,0,cca,2,25,8
@@ -19331,22 +19331,22 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,7,jania_sp,4,25,16
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,7,padina_sp,19,25,76
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,7,sand,2,25,8
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,hypnea_sp,1,25,4
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,jania_sp,4,25,16
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,padina_sp,15,25,60
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,sargassum_aquifolium,2,25,8
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,snail_dendropoma_gregarium,1,25,4
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,sand,2,25,8
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,hypnea_sp,1,26,3.8461538461538463
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,jania_sp,4,26,15.384615384615385
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,padina_sp,15,26,57.692307692307686
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,sargassum_aquifolium,2,26,7.6923076923076925
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,snail_dendropoma_gregarium,1,26,3.8461538461538463
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,sand,2,26,7.6923076923076925
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,9,jania_sp,9,25,36
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,9,padina_sp,8,25,32
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,9,sand,8,25,32
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,10,jania_sp,5,25,20
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,10,padina_sp,12,25,48
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,10,sand,8,25,32
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,11,turf,15,25,60
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,11,snail_dendropoma_gregarium,2,25,8
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,11,sand,3,25,12
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,11,bare_rock,5,25,20
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,11,turf,15,27,55.55555555555556
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,11,snail_dendropoma_gregarium,2,27,7.4074074074074066
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,11,sand,3,27,11.11111111111111
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,11,bare_rock,5,27,18.51851851851852
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,12,sand,10,25,40
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,12,pebble,15,25,60
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,3,cca,3,25,12
@@ -19378,16 +19378,16 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,9,jania_sp,1,26,3.8461538461538463
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,9,lyngbya_sp,4,26,15.384615384615385
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,9,bare_rock,21,26,80.76923076923077
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,10,sargassum_aquifolium,2,25,8
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,10,snail_dendropoma_gregarium,6,25,24
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,10,bare_rock,1,25,4
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,10,pebble,16,25,64
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,11,lyngbya_sp,1,25,4
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,11,snail_dendropoma_gregarium,4,25,16
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,11,snail_siphonaria_normalis,1,25,4
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,11,sand,19,25,76
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,12,snail_dendropoma_gregarium,2,25,8
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,12,sand,23,25,92
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,10,sargassum_aquifolium,2,31,6.451612903225806
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,10,snail_dendropoma_gregarium,6,31,19.35483870967742
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,10,bare_rock,1,31,3.225806451612903
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,10,pebble,16,31,51.61290322580645
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,11,lyngbya_sp,1,29,3.4482758620689653
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,11,snail_dendropoma_gregarium,4,29,13.793103448275861
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,11,snail_siphonaria_normalis,1,29,3.4482758620689653
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,11,sand,19,29,65.51724137931035
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,12,snail_dendropoma_gregarium,2,27,7.4074074074074066
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,12,sand,23,27,85.18518518518519
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,3,cca,3,25,12
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,3,jania_sp,1,25,4
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,3,microdictyon_sp,1,25,4
@@ -19417,13 +19417,13 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,9,turf,9,25,36
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,9,sand,4,25,16
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,9,bare_rock,12,25,48
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,10,lyngbya_sp,14,25,56.00000000000001
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,10,turf,4,25,16
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,10,snail_dendropoma_gregarium,2,25,8
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,10,bare_rock,5,25,20
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,11,snail_dendropoma_gregarium,4,25,16
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,11,snail_siphonaria_normalis,3,25,12
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,11,bare_rock,18,25,72
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,10,lyngbya_sp,14,27,51.85185185185185
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,10,turf,4,27,14.814814814814813
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,10,snail_dendropoma_gregarium,2,27,7.4074074074074066
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,10,bare_rock,5,27,18.51851851851852
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,11,snail_dendropoma_gregarium,4,29,13.793103448275861
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,11,snail_siphonaria_normalis,3,29,10.344827586206897
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,11,bare_rock,18,29,62.06896551724138
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,12,snail_siphonaria_normalis,1,25,4
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,12,bare_rock,24,25,96
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,1,dictyota_sandvicensis,14,25,56.00000000000001
@@ -19468,10 +19468,10 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,9,jania_sp,22,25,88
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,9,padina_sp,2,25,8
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,9,bare_rock,1,25,4
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,10,lyngbya_sp,7,25,28.000000000000004
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,10,turf,8,25,32
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,10,snail_dendropoma_gregarium,5,25,20
-2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,10,bare_rock,5,25,20
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,10,lyngbya_sp,7,30,23.333333333333332
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,10,turf,8,30,26.666666666666668
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,10,snail_dendropoma_gregarium,5,30,16.666666666666664
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,10,bare_rock,5,30,16.666666666666664
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,11,snail_siphonaria_normalis,2,25,8
 2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,11,bare_rock,23,25,92
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,2,cca,3,25,12
@@ -19496,33 +19496,33 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,6,neomeris_sp,1,25,4
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,6,padina_sp,14,25,56.00000000000001
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,6,turf,10,25,40
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,7,padina_sp,6,25,24
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,7,turf,13,25,52
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,7,snail_dendropoma_gregarium,4,25,16
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,7,bare_rock,2,25,8
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,7,padina_sp,6,29,20.689655172413794
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,7,turf,13,29,44.827586206896555
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,7,snail_dendropoma_gregarium,4,29,13.793103448275861
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,7,bare_rock,2,29,6.896551724137931
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,8,padina_sp,3,25,12
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,8,turf,21,25,84
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,8,bare_rock,1,25,4
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,9,lyngbya_sp,10,25,40
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,9,snail_dendropoma_gregarium,7,25,28.000000000000004
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,9,bare_rock,8,25,32
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,10,lyngbya_sp,1,25,4
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,10,snail_dendropoma_gregarium,14,25,56.00000000000001
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,10,bare_rock,10,25,40
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,11,snail_dendropoma_gregarium,6,25,24
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,11,bare_rock,19,25,76
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,acanthophora_spicifera,1,25,4
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,cca,2,25,8
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,colpomenia_sp,1,25,4
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,laurencia_sp,1,25,4
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,laurencia_mcdermidiae,1,25,4
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,lyngbya_sp,1,25,4
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,microdictyon_sp,9,25,36
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,padina_sp,3,25,12
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,sargassum_aquifolium,2,25,8
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,turf,2,25,8
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,snail_dendropoma_gregarium,1,25,4
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,pebble,1,25,4
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,9,lyngbya_sp,10,32,31.25
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,9,snail_dendropoma_gregarium,7,32,21.875
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,9,bare_rock,8,32,25
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,10,lyngbya_sp,1,39,2.564102564102564
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,10,snail_dendropoma_gregarium,14,39,35.8974358974359
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,10,bare_rock,10,39,25.64102564102564
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,11,snail_dendropoma_gregarium,6,31,19.35483870967742
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,11,bare_rock,19,31,61.29032258064516
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,acanthophora_spicifera,1,26,3.8461538461538463
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,cca,2,26,7.6923076923076925
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,colpomenia_sp,1,26,3.8461538461538463
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,laurencia_sp,1,26,3.8461538461538463
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,laurencia_mcdermidiae,1,26,3.8461538461538463
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,lyngbya_sp,1,26,3.8461538461538463
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,microdictyon_sp,9,26,34.61538461538461
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,padina_sp,3,26,11.538461538461538
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,sargassum_aquifolium,2,26,7.6923076923076925
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,turf,2,26,7.6923076923076925
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,snail_dendropoma_gregarium,1,26,3.8461538461538463
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,pebble,1,26,3.8461538461538463
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,4,cca,1,25,4
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,4,padina_sp,21,25,84
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,4,sargassum_aquifolium,2,25,8
@@ -19549,20 +19549,20 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,8,laurencia_mcdermidiae,1,25,4
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,8,padina_sp,4,25,16
 2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,8,turf,20,25,80
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,9,bornatella_sphaerica,1,25,4
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,9,lyngbya_sp,1,25,4
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,9,turf,14,25,56.00000000000001
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,9,snail_dendropoma_gregarium,6,25,24
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,9,bare_rock,3,25,12
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,10,turf,2,25,8
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,10,snail_dendropoma_gregarium,8,25,32
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,10,sand,3,25,12
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,10,pebble,12,25,48
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,11,snail_dendropoma_gregarium,5,25,20
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,11,snail_siphonaria_normalis,2,25,8
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,11,bare_rock,18,25,72
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,12,snail_dendropoma_gregarium,2,25,8
-2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,12,bare_rock,23,25,92
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,9,bornatella_sphaerica,1,31,3.225806451612903
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,9,lyngbya_sp,1,31,3.225806451612903
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,9,turf,14,31,45.16129032258064
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,9,snail_dendropoma_gregarium,6,31,19.35483870967742
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,9,bare_rock,3,31,9.67741935483871
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,10,turf,2,33,6.0606060606060606
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,10,snail_dendropoma_gregarium,8,33,24.242424242424242
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,10,sand,3,33,9.090909090909092
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,10,pebble,12,33,36.36363636363637
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,11,snail_dendropoma_gregarium,5,30,16.666666666666664
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,11,snail_siphonaria_normalis,2,30,6.666666666666667
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,11,bare_rock,18,30,60
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,12,snail_dendropoma_gregarium,2,27,7.4074074074074066
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,12,bare_rock,23,27,85.18518518518519
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,1,40,sand,10,25,40
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,1,40,bare_rock,8,25,32
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,1,40,rubble,7,25,28.000000000000004
@@ -20136,20 +20136,20 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,8,sand,5,25,20
 2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,9,lyngbya_sp,13,25,52
 2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,9,turf,12,25,48
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,cerramium_sp,4,25,16
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,jania_sp,3,25,12
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,neomeris_sp,1,25,4
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,padina_sp,2,25,8
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,turf,3,25,12
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,snail_dendropoma_gregarium,2,25,8
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,sand,5,25,20
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,bare_rock,3,25,12
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,pebble,2,25,8
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,11,bornatella_sphaerica,2,25,8
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,11,padina_sp,3,25,12
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,11,turf,5,25,20
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,11,snail_dendropoma_gregarium,5,25,20
-2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,11,bare_rock,10,25,40
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,cerramium_sp,4,27,14.814814814814813
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,jania_sp,3,27,11.11111111111111
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,neomeris_sp,1,27,3.7037037037037033
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,padina_sp,2,27,7.4074074074074066
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,turf,3,27,11.11111111111111
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,snail_dendropoma_gregarium,2,27,7.4074074074074066
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,sand,5,27,18.51851851851852
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,bare_rock,3,27,11.11111111111111
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,pebble,2,27,7.4074074074074066
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,11,bornatella_sphaerica,2,30,6.666666666666667
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,11,padina_sp,3,30,10
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,11,turf,5,30,16.666666666666664
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,11,snail_dendropoma_gregarium,5,30,16.666666666666664
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,11,bare_rock,10,30,33.33333333333333
 2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,12,turf,5,25,20
 2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,12,snail_siphonaria_normalis,1,25,4
 2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,12,bare_rock,19,25,76
@@ -21428,6 +21428,9 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 04/06/2024,NA,NA,NA,NA,NA,NA,Ewa,ewa,NA,NA,NA,Coder_5,4,22,limestone,15,26,57.692307692307686
 04/06/2024,NA,NA,NA,NA,NA,NA,Ewa,ewa,NA,NA,NA,Coder_5,4,22,bare_rock,2,26,7.6923076923076925
 1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_1,2,0,turf,3,28,10.714285714285714
+1/14/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_6,1,12,haminoea_cymbalum,1,26,3.8461538461538463
+1/27/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,2,10,snail_dendropoma,4,29,13.793103448275861
+1/27/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,1,11,snail_dendropoma,2,27,7.4074074074074066
 2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,2,avrainvillea_lacerata,7,25,28.000000000000004
 2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,2,cca,1,25,4
 2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,2,codium_arabicum,4,25,16
@@ -21490,7 +21493,7 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,16,microdictyon_sp,1,25,4
 2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,16,padina_sp,4,25,16
 2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,16,turf,1,25,4
-2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,16,haminoea_cymbalum_green_snail,1,25,4
+2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,16,haminoea_cymbalum,1,25,4
 2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,16,sand,7,25,28.000000000000004
 2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,16,bare_rock,6,25,24
 2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,18,dictyota_sp,3,25,12
@@ -21500,11 +21503,25 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,20,liagora_sp,6,25,24
 2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,20,sand,8,25,32
 2/10/2024,NA,NA,NA,NA,NA,NA,ʻEwa,ewa,NA,NA,NA,Coder_3,2,20,bare_rock,11,25,44
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,10,snail_dendropoma,25,50,50
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,3,11,snail_dendropoma,1,26,3.8461538461538463
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_8,2,11,snail_dendropoma,3,28,10.714285714285714
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_2,1,11,snail_dendropoma,2,27,7.4074074074074066
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,12,snail_dendropoma,17,42,40.476190476190474
+2/11/2024,NA,NA,NA,NA,NA,NA,Lēʻahi,leahi,NA,NA,NA,Coder_3,4,13,snail_dendropoma,10,35,28.57142857142857
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,2,0,lyngbya_sp,1,30,3.3333333333333335
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,2,5,lyngbya_sp,3,30,10
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,3,5,cerramium_sp,2,28,7.142857142857142
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,3,5,hole,1,28,3.571428571428571
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,8,snail_dendropoma,1,26,3.8461538461538463
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,10,snail_dendropoma,6,31,19.35483870967742
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,10,snail_dendropoma,2,27,7.4074074074074066
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,1,10,snail_dendropoma,5,30,16.666666666666664
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,2,10,lyngbya_sp,2,28,7.142857142857142
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_2,4,11,snail_dendropoma,2,27,7.4074074074074066
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,11,snail_dendropoma,4,29,13.793103448275861
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,2,11,snail_dendropoma,4,29,13.793103448275861
+2/24/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,3,12,snail_dendropoma,2,27,7.4074074074074066
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,2,15,lyngbya_sp,2,28,7.142857142857142
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,1,20,astronema_breviarticulatum,3,30,10
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,2,20,lyngbya_sp,1,25,4
@@ -21514,6 +21531,17 @@ date,start_time,stop_time,number_of_transect_lines,length_of_transect_lines,poin
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,2,30,lyngbya_sp,1,26,3.8461538461538463
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,2,40,sand,11,35,31.428571428571427
 2/24/2024,NA,NA,NA,NA,NA,NA,Mamala,mamala,NA,NA,NA,Coder_7,3,40,turf,6,31,19.35483870967742
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,3,snail_dendropoma,1,26,3.8461538461538463
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,7,snail_dendropoma,4,29,13.793103448275861
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,9,snail_dendropoma,7,32,21.875
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,9,snail_dendropoma,6,31,19.35483870967742
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,10,snail_dendropoma,14,39,35.8974358974359
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,10,snail_dendropoma,8,33,24.242424242424242
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,10,snail_dendropoma,2,27,7.4074074074074066
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_8,3,11,snail_dendropoma,6,31,19.35483870967742
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,11,snail_dendropoma,5,30,16.666666666666664
+2/25/2024,NA,NA,NA,NA,NA,NA,Leahi,leahi,NA,NA,NA,Coder_6,1,11,snail_dendropoma,5,30,16.666666666666664
+2/25/2024,NA,NA,NA,NA,NA,NA,Leʻahi,leahi,NA,NA,NA,Coder_3,4,12,snail_dendropoma,2,27,7.4074074074074066
 4/13/2025,NA,NA,NA,NA,NA,NA,Diamond Head,diamond_head,NA,NA,NA,Coder_14,1,0,acanthophora_spicifera,0,25,0
 4/13/2025,NA,NA,NA,NA,NA,NA,Diamond Head,diamond_head,NA,NA,NA,Coder_14,1,0,amansia_sp,0,25,0
 4/13/2025,NA,NA,NA,NA,NA,NA,Diamond Head,diamond_head,NA,NA,NA,Coder_14,1,0,articulated_coralline,0,25,0
